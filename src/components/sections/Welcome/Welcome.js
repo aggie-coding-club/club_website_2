@@ -1,5 +1,5 @@
 import DiscordButton from "../../assets/DiscordButton";
-import logo from "../../../static/icons/colored_computer.png";
+import logo from "../../../static/icons/computer.png";
 import { useTheme } from "@emotion/react";
 
 export default function Welcome() {
@@ -26,7 +26,7 @@ export default function Welcome() {
         </p>
         <DiscordButton />
       </div>
-      <img src={logo} alt="ACC Logo" />
+      <img src={logo} alt="ACC Logo" width="400px" />
     </div>
   );
 }

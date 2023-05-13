@@ -1,20 +1,10 @@
 import { Button } from "@mui/material";
 import OfficerCards from "./OfficerCards";
-const officers = [
-  {
-    name: "Brady",
-    major: "hehe",
-  },
-  {
-    name: "Sofia",
-    major: "hehe",
-  },
-  {
-    name: "Casey",
-    major: "hehe",
-  },
-];
-const formerOfficers = officers; // FIXME
+
+import allOfficers from "../../../static/data/officers.json";
+
+const officers = allOfficers.officers;
+const formerOfficers = allOfficers.former;
 
 export default function OfficerTeam() {
   return (
