@@ -1,24 +1,52 @@
+import peopleImage from "../../../static/images/people/officers-natural-habitat.jpg";
+import Characterstic from "./Characterstic";
+
+const characterstics = [
+  {
+    header: "Workshops",
+    description: "learn something new every week",
+    key: 1,
+  },
+  {
+    header: "Projects",
+    description: "create a coding project with other ACC members",
+    key: 2,
+  },
+  {
+    header: "Socials",
+    description: "get to know other coders through events",
+    key: 3,
+  },
+  {
+    header: "Company Talks",
+    description: "network and learn about companies each week",
+    key: 4,
+  },
+];
+
 export default function WhatWeDo() {
+  const containerStyle = {
+    display: "flex",
+    direction: "row",
+  };
   return (
     <div>
-      <ol>
-        <li>
-          <h2>Workshops</h2>
-          <p>learn something new every week</p>
-        </li>
-        <li>
-          <h2>Projects</h2>
-          <p>create a coding project with other ACC members</p>
-        </li>
-        <li>
-          <h2>Socials</h2>
-          <p>get to know other coders through our events</p>
-        </li>
-        <li>
-          <h2>Company Talks</h2>
-          <p>network and learn about companies each week</p>
-        </li>
-      </ol>
+      <h1>What We Do</h1>
+      <div style={containerStyle}>
+        <div>
+          <img src={peopleImage} alt="officers in their natural habitat" />
+        </div>
+        <div>
+          {characterstics.map((ch) => (
+            <Characterstic
+              key={ch.key}
+              num={ch.key}
+              header={ch.header}
+              description={ch.description}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
