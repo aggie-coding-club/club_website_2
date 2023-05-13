@@ -1,10 +1,4 @@
-import { Button, styled } from "@mui/material";
-
-const SquareButton = styled(Button)(({ theme }) => ({
-  padding: "10px 50px",
-  borderRadius: 0,
-}));
-
+import { SquareButton } from "./SquareButton";
 export default function DiscordButton() {
-  return <SquareButton variant="contained">Join Discord</SquareButton>;
+  return <SquareButton variant="contained"> Join Discord</SquareButton>;
 }

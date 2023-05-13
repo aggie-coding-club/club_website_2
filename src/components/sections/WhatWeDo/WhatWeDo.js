@@ -1,4 +1,4 @@
-import peopleImage from "../../../static/images/people/officers-natural-habitat.jpg";
+import peopleImage from "../../../static/images/people/people0.jpg";
 import Characterstic from "./Characterstic";
 
 const characterstics = [
