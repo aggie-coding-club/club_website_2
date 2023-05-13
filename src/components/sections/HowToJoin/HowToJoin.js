@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import DiscordButton from "../../assets/DiscordButton";
 
 export default function HowToJoin() {
   return (
@@ -10,7 +10,7 @@ export default function HowToJoin() {
         Simply start attending our weekly meetings! Follow the link below to
         join our Discord to connect and be informed of our meeting times.
       </p>
-      <Button variant="contained">Join Discord</Button>
+      <DiscordButton />
     </div>
   );
 }
