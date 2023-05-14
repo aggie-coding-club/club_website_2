@@ -7,8 +7,9 @@ import Schedule from "./components/sections/Schedule/Schedule";
 import Projects from "./components/sections/Projects/Projects";
 import OfficerTeam from "./components/sections/OfficerTeam/OfficerTeam";
 import Footer from "./components/sections/Footer/Footer";
+
 import { ThemeProvider } from "@emotion/react";
-import { createTheme } from "@mui/material";
+import { Container, createTheme } from "@mui/material";
 
 export const theme = createTheme({
   palette: {
@@ -23,22 +24,28 @@ export const theme = createTheme({
       main: "#EEF6FF",
     },
     text: {
-      primary: "#02233A",
+      primary: "#001030", 
+      secondary: "#3766b4"
     },
   },
 });
+
+
+
 function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Header />
-        <Welcome />
-        <WhatWeDo />
-        <HowToJoin />
-        <Schedule />
-        <Projects />
-        <OfficerTeam />
-        <Footer />
+          <Header />
+          <Container maxWidth="lg">
+            <Welcome />
+            <WhatWeDo />
+            <HowToJoin />
+            <Schedule />
+            <Projects />
+            <OfficerTeam />
+          </Container>
+          <Footer />
       </ThemeProvider>
     </div>
   );

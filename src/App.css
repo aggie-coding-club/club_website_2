@@ -2,12 +2,18 @@
   font-family: Poppins;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #001030;
+  margin: 0;
+}
+
 h1 {
   font-weight: 600;
   font-size: 55px;
   text-align: center;
   margin: 70px 0 25px 0;
 }
+
 
 h2 {
   font-weight: 600;
