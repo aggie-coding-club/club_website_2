@@ -21,13 +21,25 @@ import OfficerCard from "./OfficerCard";
  * @returns {ReactComponentElement[]} renders the array of officers into cards
  */
 export default function OfficerCards({ officers }) {
-  return officers.map((officer) => (
-    <OfficerCard
-      name={officer.name}
-      major={officer.major}
-      position={officer.position}
-      term={officer.term}
-      description={officer.description}
-    />
-  ));
+  const containerStyle = {
+    display: "flex",
+    direction: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  };
+
+  return (
+    <div style={containerStyle}>
+      {officers.map((officer) => (
+        <OfficerCard
+          name={officer.name}
+          major={officer.major}
+          position={officer.position}
+          term={officer.term}
+          description={officer.description}
+          key={officer.name}
+        />
+      ))}
+    </div>
+  );
 }
