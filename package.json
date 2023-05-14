@@ -2,6 +2,7 @@
   "name": "club_website_2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aggie-coding-club.github.io/club_website_2/",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
