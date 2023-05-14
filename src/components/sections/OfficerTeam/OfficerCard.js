@@ -36,9 +36,16 @@ export default function OfficerCard({
     console.log("exit");
   }
 
+  const containerStyle = {
+    width: "360px",
+    margin: "10px",
+    position: "relative",
+  };
+
   const imageDescriptionStyle = {
     position: "absolute",
     backgroundColor: theme.palette.info.main,
+    textAlign: "center",
     width: "360px",
     height: "360px",
     top: 0,
@@ -51,16 +58,16 @@ export default function OfficerCard({
 
   return (
     <Paper
-      sx={{ width: 360, margin: "10px", position: "relative" }}
+      sx={containerStyle}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseExit}
+      elevation={hover ? 10 : 1}
     >
       <img
         src={require(`../../../static/images/officers/${formatName()}`)}
         alt={`${name} headshot`}
         width={360}
         height={360}
-        onClick={() => console.log("click")}
       />
       <div style={imageDescriptionStyle}>
         <h3>{name}</h3>

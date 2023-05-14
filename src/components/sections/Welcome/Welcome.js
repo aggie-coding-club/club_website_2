@@ -9,6 +9,7 @@ export default function Welcome() {
     backgroundColor: theme.palette.info.main,
     display: "flex",
     direction: "row",
+    justifyContent: "center",
   };
   return (
     <div style={containerStyle}>
