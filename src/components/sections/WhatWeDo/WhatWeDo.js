@@ -1,4 +1,5 @@
 import peopleImage from "../../../static/images/people/people0.jpg";
+import BlueOffsetImage from "../../assets/BlueOffsetImage";
 import Characterstic from "./Characterstic";
 
 const characterstics = [
@@ -27,16 +28,32 @@ const characterstics = [
 export default function WhatWeDo() {
   const containerStyle = {
     display: "flex",
-    direction: "row",
+    flexDirection: "row",
+    justifyContent: "center",
+    // backgroundColor: "red",
+  };
+
+  const imageContainerStyle = {
+    // backgroundColor: "purple",
+    flexGrow: 1,
+  };
+
+  const charactersticStyle = {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
   };
   return (
     <div>
       <h1>What We Do</h1>
       <div style={containerStyle}>
-        <div>
-          <img src={peopleImage} alt="officers in their natural habitat" />
+        <div style={imageContainerStyle}>
+          <BlueOffsetImage
+            src={peopleImage}
+            alt="officers in their wild habitats"
+          />
         </div>
-        <div>
+        <div style={charactersticStyle}>
           {characterstics.map((ch) => (
             <Characterstic
               key={ch.key}

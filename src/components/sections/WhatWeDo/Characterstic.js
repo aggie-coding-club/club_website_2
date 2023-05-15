@@ -15,6 +15,7 @@ export default function Characterstic({ num, header, description }) {
   const containerStyle = {
     display: "flex",
     direction: "row",
+    backgroundColor: "green",
   };
   const numberContainerStyle = {
     backgroundColor: theme.palette.info.main,
@@ -28,16 +29,30 @@ export default function Characterstic({ num, header, description }) {
     lineHeight: badgeSize,
     color: theme.palette.primary.main,
     fontWeight: "bold",
+    fontSize: "30px",
+  };
+
+  const textStyle = {
+    paddingLeft: "1rem",
+    display: "flex",
+    flexDirection: "column",
+    margin: "1rem 0",
+  };
+
+  const descriptionStyle = {
+    margin: 0,
   };
 
   return (
     <div style={containerStyle}>
-      <div style={numberContainerStyle}>
-        <div style={numberStyle}>0{num}</div>
-      </div>
       <div>
+        <div style={numberContainerStyle}>
+          <div style={numberStyle}>0{num}</div>
+        </div>
+      </div>
+      <div style={textStyle}>
         <h4>{header}</h4>
-        <p>{description}</p>
+        <p style={descriptionStyle}>{description}</p>
       </div>
     </div>
   );
