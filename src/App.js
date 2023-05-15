@@ -24,28 +24,26 @@ export const theme = createTheme({
       main: "#EEF6FF",
     },
     text: {
-      primary: "#001030", 
-      secondary: "#3766b4"
+      primary: "#001030",
+      secondary: "#3766b4",
     },
   },
 });
-
-
 
 function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-          <Header />
-          <Container maxWidth="lg">
-            <Welcome />
-            <WhatWeDo />
-            <HowToJoin />
-            <Schedule />
-            <Projects />
-            <OfficerTeam />
-          </Container>
-          <Footer />
+        <Header />
+        <Container maxWidth="lg">
+          <Welcome />
+          <WhatWeDo />
+          <HowToJoin />
+          <Schedule />
+          <Projects />
+          <OfficerTeam />
+        </Container>
+        <Footer />
       </ThemeProvider>
     </div>
   );
