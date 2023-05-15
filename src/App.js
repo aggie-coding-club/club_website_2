@@ -26,6 +26,7 @@ export const theme = createTheme({
     text: {
       primary: "#001030",
       secondary: "#3766b4",
+      info: "#969696",
     },
   },
 });
@@ -34,16 +35,16 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Header />
         <Container maxWidth="lg">
+          <Header />
           <Welcome />
           <WhatWeDo />
           <HowToJoin />
           <Schedule />
           <Projects />
           <OfficerTeam />
+          <Footer />
         </Container>
-        <Footer />
       </ThemeProvider>
     </div>
   );
