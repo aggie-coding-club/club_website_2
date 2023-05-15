@@ -7,7 +7,7 @@ export default function HowToJoin() {
     direction: "row",
   };
   return (
-    <div>
+    <div id="how-to-join">
       <h1>How To Join</h1>
       <div style={containerStyle}>
         <div>

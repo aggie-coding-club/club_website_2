@@ -1,4 +1,20 @@
-import { AppBar, Toolbar } from "@mui/material";
+import accIcon from "../../../static/icons/acc.png";
+import LinkTags from "./LinkTags";
+
+const headerLinks = [
+  {
+    name: "Home",
+    link: "#",
+  },
+  {
+    name: "Join",
+    link: "#how-to-join",
+  },
+  {
+    name: "Projects",
+    link: "#projects",
+  },
+];
 
 export default function Header() {
   const flexRow = {
@@ -8,15 +24,11 @@ export default function Header() {
   };
 
   return (
-    <AppBar position="static">
-      <Toolbar sx={flexRow}>
-        <div>ACC</div>
-        <div style={flexRow}>
-          <p>Home</p>
-          <p>Join</p>
-          <p>Projects</p>
-        </div>
-      </Toolbar>
-    </AppBar>
+    <div style={flexRow}>
+      <div>
+        <img src={accIcon} alt="ACC Icon" />
+      </div>
+      <LinkTags linkData={headerLinks} />
+    </div>
   );
 }

@@ -26,6 +26,7 @@ export const theme = createTheme({
     text: {
       primary: "#001030",
       secondary: "#3766b4",
+      info: "#969696",
     },
   },
 });

@@ -9,7 +9,7 @@ export default function Projects() {
     direction: "row",
   };
   return (
-    <div>
+    <div id="projects">
       <h1>Projects</h1>
       <div>
         <div style={containerStyle}>
