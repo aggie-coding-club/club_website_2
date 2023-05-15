@@ -1,4 +1,5 @@
 import { useTheme } from "@emotion/react";
+import { Link } from "@mui/material";
 
 /**
  *
@@ -13,19 +14,19 @@ export default function LinkTags({ linkData }) {
   const containerStyle = {
     display: "flex",
     flexDirection: "row",
+    margin: "20px 0",
   };
 
+  // App.css has more styling for link tag <a></a>
   const linkStyle = {
-    transition: "all 1s ease-out",
-    textDecoration: "none",
-    color: theme.palette.text.info,
+    color: theme.palette.text.primary,
     margin: "0 15px",
   };
 
   return (
     <div style={containerStyle}>
       {linkData.map((aLink) => (
-        <a style={linkStyle} href={aLink.link}>
+        <a href={aLink.link} class="header-link" style={linkStyle}>
           {aLink.name}
         </a>
       ))}

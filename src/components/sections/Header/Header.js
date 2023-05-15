@@ -21,12 +21,14 @@ export default function Header() {
     display: "flex",
     direction: "row",
     justifyContent: "space-between",
+    alignItems: "center",
+    padding: "0.5rem 0",
   };
 
   return (
     <div style={flexRow}>
       <div>
-        <img src={accIcon} alt="ACC Icon" />
+        <img src={accIcon} alt="ACC Icon" width={125} />
       </div>
       <LinkTags linkData={headerLinks} />
     </div>

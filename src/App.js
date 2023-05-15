@@ -35,16 +35,16 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Header />
         <Container maxWidth="lg">
+          <Header />
           <Welcome />
           <WhatWeDo />
           <HowToJoin />
           <Schedule />
           <Projects />
           <OfficerTeam />
+          <Footer />
         </Container>
-        <Footer />
       </ThemeProvider>
     </div>
   );
