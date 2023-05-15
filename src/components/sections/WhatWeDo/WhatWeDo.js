@@ -30,12 +30,12 @@ export default function WhatWeDo() {
     display: "flex",
     flexDirection: "row",
     justifyContent: "center",
-    // backgroundColor: "red",
   };
 
   const imageContainerStyle = {
-    // backgroundColor: "purple",
     flexGrow: 1,
+    display: "flex",
+    justifyContent: "center",
   };
 
   const charactersticStyle = {
@@ -51,6 +51,8 @@ export default function WhatWeDo() {
           <BlueOffsetImage
             src={peopleImage}
             alt="officers in their wild habitats"
+            width={277}
+            height={369}
           />
         </div>
         <div style={charactersticStyle}>

@@ -13,9 +13,9 @@ export default function Characterstic({ num, header, description }) {
   const badgeSize = "75px";
 
   const containerStyle = {
+    flexGrow: 1,
     display: "flex",
     direction: "row",
-    backgroundColor: "green",
   };
   const numberContainerStyle = {
     backgroundColor: theme.palette.info.main,

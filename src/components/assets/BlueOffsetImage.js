@@ -19,8 +19,8 @@ export default function BlueOffsetImage({ src, alt, width, height }) {
   const blueBoxStyle = {
     position: "absolute",
     zIndex: -1,
-    top: 10,
-    left: 10,
+    top: 30,
+    left: 30,
     width: width ? width : 300,
     height: height ? height : 400,
     backgroundColor: theme.palette.info.main,
