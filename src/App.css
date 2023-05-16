@@ -40,3 +40,9 @@ a:focus {
   text-decoration-thickness: 3px;
   opacity: 100%;
 }
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
