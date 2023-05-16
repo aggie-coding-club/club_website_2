@@ -13,6 +13,7 @@ export default function BlueOffsetImage({ src, alt, width, height }) {
   const containerStyle = {
     position: "relative",
     zIndex: 2,
+    marginRight: 30
   };
 
   const blueBoxStyle = {

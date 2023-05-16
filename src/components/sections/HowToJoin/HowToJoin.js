@@ -24,27 +24,29 @@ export default function HowToJoin() {
   return (
     <div id="how-to-join">
       <h1>How To Join</h1>
-      <div style={containerStyle}>
-        <Container maxWidth="sm" sx={descriptionContainerStyle}>
-          <div>
-            <p>
-              Aggie Coding Club is open to all Texas A&M students regardless of
-              coding experience or major at any point during the semester. There
-              are <strong>no dues</strong> and{" "}
-              <strong>no application forms</strong>.
-            </p>
-            <p>
-              Simply start attending our weekly meetings! Follow the link below
-              to join our Discord to connect and be informed of our meeting
-              times.
-            </p>
-            <DiscordButton />
+      <Container maxWidth="md">
+        <div style={containerStyle}>
+          <Container maxWidth="sm" sx={descriptionContainerStyle}>
+            <div>
+              <p>
+                Aggie Coding Club is open to all Texas A&M students regardless
+                of coding experience or major at any point during the semester.
+                There are <strong>no dues</strong> and{" "}
+                <strong>no application forms</strong>.
+              </p>
+              <p>
+                Simply start attending our weekly meetings! Follow the link
+                below to join our Discord to connect and be informed of our
+                meeting times.
+              </p>
+              <DiscordButton />
+            </div>
+          </Container>
+          <div style={imageContainerStyle}>
+            <BlueOffsetImage src={peopleImage} alt="people in ACC having fun" />
           </div>
-        </Container>
-        <div style={imageContainerStyle}>
-          <BlueOffsetImage src={peopleImage} alt="people in ACC having fun" />
         </div>
-      </div>
+      </Container>
     </div>
   );
 }

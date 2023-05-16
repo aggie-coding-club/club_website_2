@@ -28,6 +28,13 @@ export const theme = createTheme({
       secondary: "#3766b4",
       info: "#969696",
     },
+    breakpoints: {
+      values: {
+        sm: 400,
+        md: 600,
+        lg: 800
+      }
+    }
   },
 });
 
