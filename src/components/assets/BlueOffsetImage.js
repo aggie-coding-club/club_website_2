@@ -1,5 +1,4 @@
 import { useTheme } from "@emotion/react";
-import zIndex from "@mui/material/styles/zIndex";
 
 /**
  *
@@ -14,6 +13,7 @@ export default function BlueOffsetImage({ src, alt, width, height }) {
   const containerStyle = {
     position: "relative",
     zIndex: 2,
+    marginRight: 30
   };
 
   const blueBoxStyle = {

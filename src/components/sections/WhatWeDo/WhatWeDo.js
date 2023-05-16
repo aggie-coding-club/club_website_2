@@ -2,6 +2,8 @@ import peopleImage from "../../../static/images/people/people0.jpg";
 import BlueOffsetImage from "../../assets/BlueOffsetImage";
 import Characterstic from "./Characterstic";
 
+import { Container } from "@mui/system";
+
 const characterstics = [
   {
     header: "Workshops",
@@ -46,26 +48,28 @@ export default function WhatWeDo() {
   return (
     <div>
       <h1>What We Do</h1>
-      <div style={containerStyle}>
-        <div style={imageContainerStyle}>
-          <BlueOffsetImage
-            src={peopleImage}
-            alt="officers in their wild habitats"
-            width={277}
-            height={369}
-          />
-        </div>
-        <div style={charactersticStyle}>
-          {characterstics.map((ch) => (
-            <Characterstic
-              key={ch.key}
-              num={ch.key}
-              header={ch.header}
-              description={ch.description}
+      <Container maxWidth="md">
+        <div style={containerStyle}>
+          <div style={imageContainerStyle}>
+            <BlueOffsetImage
+              src={peopleImage}
+              alt="officers in their wild habitats"
+              width={277}
+              height={369}
             />
-          ))}
+          </div>
+          <div style={charactersticStyle}>
+            {characterstics.map((ch) => (
+              <Characterstic
+                key={ch.key}
+                num={ch.key}
+                header={ch.header}
+                description={ch.description}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }

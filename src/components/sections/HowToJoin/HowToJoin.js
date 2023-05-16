@@ -1,30 +1,52 @@
+import { Container } from "@mui/system";
 import peopleImage from "../../../static/images/people/people1.png";
+import BlueOffsetImage from "../../assets/BlueOffsetImage";
 import DiscordButton from "../../assets/DiscordButton";
 
 export default function HowToJoin() {
   const containerStyle = {
     display: "flex",
     direction: "row",
+    justifyContent: "center",
+  };
+
+  const descriptionContainerStyle = {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+  };
+
+  const imageContainerStyle = {
+    flexGrow: 1,
+    display: "flex",
+    justifyContent: "center",
   };
   return (
     <div id="how-to-join">
       <h1>How To Join</h1>
-      <div style={containerStyle}>
-        <div>
-          <p>
-            Aggie Coding Club is open to all Texas A&M students regardless of
-            coding experience or major at any point during the semester. There
-            is
-            <strong>no dues</strong> and <strong>no application forms</strong>.
-            Simply start attending our weekly meetings! Follow the link below to
-            join our Discord to connect and be informed of our meeting times.
-          </p>
-          <DiscordButton />
+      <Container maxWidth="md">
+        <div style={containerStyle}>
+          <Container maxWidth="sm" sx={descriptionContainerStyle}>
+            <div>
+              <p>
+                Aggie Coding Club is open to all Texas A&M students regardless
+                of coding experience or major at any point during the semester.
+                There are <strong>no dues</strong> and{" "}
+                <strong>no application forms</strong>.
+              </p>
+              <p>
+                Simply start attending our weekly meetings! Follow the link
+                below to join our Discord to connect and be informed of our
+                meeting times.
+              </p>
+              <DiscordButton />
+            </div>
+          </Container>
+          <div style={imageContainerStyle}>
+            <BlueOffsetImage src={peopleImage} alt="people in ACC having fun" />
+          </div>
         </div>
-        <div>
-          <img src={peopleImage} alt="people in ACC" />
-        </div>
-      </div>
+      </Container>
     </div>
   );
 }
