@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import accIcon from "../../../static/icons/acc.png";
 
 export default function Footer() {
@@ -26,6 +26,10 @@ export default function Footer() {
           {/* instagram */}
           <a href="https://www.instagram.com/aggiecodingclub/?hl=en" target="_blank" style = {items}>
             <AiFillInstagram size={50}  alt="Instagram Icon" color="3766B4"/>
+          </a>
+
+          <a href="https://www.linkedin.com/company/aggie-codingclub/" target="_blank" style = {items}>
+            <AiFillLinkedin size={50}  alt="Linkedin Icon" color="3766B4"/>
           </a>
 
           <a href="https://github.com/aggie-coding-club" target="_blank" style = {items}>
