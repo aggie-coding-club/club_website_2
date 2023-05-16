@@ -19,6 +19,7 @@ export default function Projects() {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
+    paddingRight: 30,
     maxWidth: theme.breakpoints.values.sm,
   };
 
