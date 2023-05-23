@@ -1,4 +1,5 @@
-import { Paper, Button } from "@mui/material";
+import { useTheme } from "@emotion/react";
+import { Button } from "@mui/material";
 
 /**
  *
@@ -8,11 +9,35 @@ import { Paper, Button } from "@mui/material";
  * @returns React component with project organized in card
  */
 export default function ProjectCard({ name, description, linkAddress }) {
+  const theme = useTheme();
+
+  const containerStyle = {
+    backgroundColor: theme.palette.info.main,
+    // margin: "10px",
+    padding: "20px 15px",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+  };
+
+  const linkStyle = {
+    color: theme.palette.primary.main,
+    fontWeight: "bold",
+    textDecoration: "none",
+    opacity: 1,
+    margin: "-8px",
+  };
   return (
-    <Paper sx={{ width: "400px" }}>
-      <h3>{name}</h3>
-      <p> {description}</p>
-      <Button href={linkAddress}>Learn more</Button>
-    </Paper>
+    <div style={containerStyle}>
+      <div>
+        <h3>{name}</h3>
+        <p> {description}</p>
+      </div>
+      <div>
+        <Button href={linkAddress} sx={linkStyle}>
+          Learn more
+        </Button>
+      </div>
+    </div>
   );
 }
