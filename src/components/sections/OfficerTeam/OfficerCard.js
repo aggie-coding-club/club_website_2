@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Paper } from "@mui/material";
 import { useTheme } from "@emotion/react";
+import { Box } from "@mui/system";
 
 /**
  *
@@ -42,7 +42,11 @@ export default function OfficerCard({
     position: "relative",
   };
 
-  const imageDescriptionStyle = {
+  const imgStyle = {
+    boxShadow:
+      "rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px",
+  };
+  const imageDescriptionContainerStyle = {
     position: "absolute",
     backgroundColor: theme.palette.info.main,
     textAlign: "center",
@@ -51,31 +55,43 @@ export default function OfficerCard({
     top: 0,
     right: 0,
 
+    boxShadow:
+      "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px",
+
     opacity: hover ? 0.8 : 0,
     visibility: hover ? "visible" : "hidden",
-    transition: "opacity 0.4s linear",
+    transition: "all 0.3s linear",
+
+    display: "flex",
+    alignItems: "center",
+  };
+
+  const imageDescriptionStyle = {
+    margin: "0 10px",
   };
 
   return (
-    <Paper
+    <Box
       sx={containerStyle}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseExit}
-      elevation={hover ? 10 : 1}
     >
       <img
+        style={imgStyle}
         src={require(`../../../static/images/officers/${formatName()}`)}
         alt={`${name} headshot`}
         width={360}
         height={360}
       />
-      <div style={imageDescriptionStyle}>
-        <h3>{name}</h3>
-        <h3>{major}</h3>
-        <p>{position}</p>
-        <p>{term}</p>
-        <p>{description}</p>
+      <div style={imageDescriptionContainerStyle}>
+        <div style={imageDescriptionStyle}>
+          <h3>{name}</h3>
+          <h3>{major}</h3>
+          <p>{position}</p>
+          <p>{term}</p>
+          <p>{description}</p>
+        </div>
       </div>
-    </Paper>
+    </Box>
   );
 }
