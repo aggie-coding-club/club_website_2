@@ -42,7 +42,7 @@ export default function OfficerCard({
     position: "relative",
   };
 
-  const imageDescriptionStyle = {
+  const imageDescriptionContainerStyle = {
     position: "absolute",
     backgroundColor: theme.palette.info.main,
     textAlign: "center",
@@ -54,6 +54,13 @@ export default function OfficerCard({
     opacity: hover ? 0.8 : 0,
     visibility: hover ? "visible" : "hidden",
     transition: "opacity 0.4s linear",
+
+    display: "flex",
+    alignItems: "center",
+  };
+
+  const imageDescriptionStyle = {
+    margin: "0 10px",
   };
 
   return (
@@ -69,12 +76,14 @@ export default function OfficerCard({
         width={360}
         height={360}
       />
-      <div style={imageDescriptionStyle}>
-        <h3>{name}</h3>
-        <h3>{major}</h3>
-        <p>{position}</p>
-        <p>{term}</p>
-        <p>{description}</p>
+      <div style={imageDescriptionContainerStyle}>
+        <div style={imageDescriptionStyle}>
+          <h3>{name}</h3>
+          <h3>{major}</h3>
+          <p>{position}</p>
+          <p>{term}</p>
+          <p>{description}</p>
+        </div>
       </div>
     </Paper>
   );
