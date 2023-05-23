@@ -14,15 +14,23 @@ export default function OfficerTeam() {
   function handleClick() {
     setDisplayFormerOfficers(!displayFormerOfficers);
   }
+
+  const squareButtonStyle = {
+    display: "flex",
+    justifyContent: "center",
+    marginTop: "70px",
+  };
   return (
     <div>
       <div>
         <h1>Officer Team</h1>
         <OfficerCards officers={officers} />
       </div>
-      <SquareButton variant="contained" onClick={handleClick}>
-        Former Officers
-      </SquareButton>
+      <div style={squareButtonStyle}>
+        <SquareButton variant="contained" onClick={handleClick}>
+          Former Officers
+        </SquareButton>
+      </div>
 
       {displayFormerOfficers && (
         <div>
