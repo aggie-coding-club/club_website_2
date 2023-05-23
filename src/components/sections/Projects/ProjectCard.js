@@ -13,7 +13,7 @@ export default function ProjectCard({ name, description, linkAddress }) {
 
   const containerStyle = {
     backgroundColor: theme.palette.info.main,
-    margin: "10px",
+    // margin: "10px",
     padding: "20px 15px",
     display: "flex",
     flexDirection: "column",
