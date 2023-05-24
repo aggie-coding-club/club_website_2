@@ -32,9 +32,9 @@ export const theme = createTheme({
       values: {
         sm: 400,
         md: 600,
-        lg: 800
-      }
-    }
+        lg: 800,
+      },
+    },
   },
 });
 
