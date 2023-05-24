@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import peopleImage from "../../../static/images/people/people0.jpg";
 import BlueOffsetImage from "../../assets/BlueOffsetImage";
 import Characterstic from "./Characterstic";
@@ -35,8 +36,12 @@ export default function WhatWeDo() {
   };
 
   const imageContainerStyle = {
+    display: {
+      xs: "none",
+      sm: "none",
+      md: "flex",
+    },
     flexGrow: 1,
-    display: "flex",
     justifyContent: "center",
   };
 
@@ -50,14 +55,14 @@ export default function WhatWeDo() {
       <h1>What We Do</h1>
       <Container maxWidth="md">
         <div style={containerStyle}>
-          <div style={imageContainerStyle}>
+          <Box sx={imageContainerStyle}>
             <BlueOffsetImage
               src={peopleImage}
               alt="officers in their wild habitats"
               width={277}
               height={369}
             />
-          </div>
+          </Box>
           <div style={charactersticStyle}>
             {characterstics.map((ch) => (
               <Characterstic
