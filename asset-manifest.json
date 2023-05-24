@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/club_website_2/static/css/main.fbd1e6e3.css",
-    "main.js": "/club_website_2/static/js/main.af9ea355.js",
+    "main.css": "/club_website_2/static/css/main.db5b971a.css",
+    "main.js": "/club_website_2/static/js/main.a2c0c5c6.js",
     "static/media/casey_pei.jpg": "/club_website_2/static/media/casey_pei.03ee3f505a531724e136.jpg",
     "static/media/jay_de_vera.jpg": "/club_website_2/static/media/jay_de_vera.6c0553e30cbd285186c1.jpg",
     "static/media/jad_khalili.jpg": "/club_website_2/static/media/jad_khalili.e6e2382d202994df7134.jpg",
@@ -36,11 +36,11 @@
     "static/media/people0.jpg": "/club_website_2/static/media/people0.7df3547e41c75e9ae813.jpg",
     "static/media/computer.png": "/club_website_2/static/media/computer.2ac3c0ac6486a16236eb.png",
     "index.html": "/club_website_2/index.html",
-    "main.fbd1e6e3.css.map": "/club_website_2/static/css/main.fbd1e6e3.css.map",
-    "main.af9ea355.js.map": "/club_website_2/static/js/main.af9ea355.js.map"
+    "main.db5b971a.css.map": "/club_website_2/static/css/main.db5b971a.css.map",
+    "main.a2c0c5c6.js.map": "/club_website_2/static/js/main.a2c0c5c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbd1e6e3.css",
-    "static/js/main.af9ea355.js"
+    "static/css/main.db5b971a.css",
+    "static/js/main.a2c0c5c6.js"
   ]
 }
