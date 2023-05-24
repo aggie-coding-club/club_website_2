@@ -2,6 +2,7 @@ import { Container } from "@mui/system";
 import peopleImage from "../../../static/images/people/people1.png";
 import BlueOffsetImage from "../../assets/BlueOffsetImage";
 import DiscordButton from "../../assets/DiscordButton";
+import { Box } from "@mui/material";
 
 export default function HowToJoin() {
   const containerStyle = {
@@ -16,9 +17,22 @@ export default function HowToJoin() {
     justifyContent: "center",
   };
 
+  const descriptionStyle = {
+    textAlign: {
+      xs: "center",
+      sm: "center",
+      md: "left",
+      lg: "left",
+    },
+  };
+
   const imageContainerStyle = {
+    display: {
+      xs: "none",
+      sm: "none",
+      md: "flex",
+    },
     flexGrow: 1,
-    display: "flex",
     justifyContent: "center",
   };
   return (
@@ -27,7 +41,7 @@ export default function HowToJoin() {
       <Container maxWidth="md">
         <div style={containerStyle}>
           <Container maxWidth="sm" sx={descriptionContainerStyle}>
-            <div>
+            <Box sx={descriptionStyle}>
               <p>
                 Aggie Coding Club is open to all Texas A&M students regardless
                 of coding experience or major at any point during the semester.
@@ -40,11 +54,11 @@ export default function HowToJoin() {
                 meeting times.
               </p>
               <DiscordButton />
-            </div>
+            </Box>
           </Container>
-          <div style={imageContainerStyle}>
+          <Box sx={imageContainerStyle}>
             <BlueOffsetImage src={peopleImage} alt="people in ACC having fun" />
-          </div>
+          </Box>
         </div>
       </Container>
     </div>

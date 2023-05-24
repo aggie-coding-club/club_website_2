@@ -5,6 +5,7 @@ import peopleImage3 from "../../../static/images/people/people3.png";
 import PastProjects from "./PastProjects";
 import BlueOffsetImage from "../../assets/BlueOffsetImage";
 import { useTheme } from "@emotion/react";
+import { Box } from "@mui/material";
 
 export default function Projects() {
   const theme = useTheme();
@@ -19,8 +20,39 @@ export default function Projects() {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    paddingRight: 30,
     maxWidth: theme.breakpoints.values.sm,
+    textAlign: {
+      xs: "center",
+      sm: "center",
+      md: "left",
+      lg: "left",
+    },
+  };
+
+  const descriptionContainerStyle1 = {
+    paddingRight: {
+      xs: "0",
+      sm: "0",
+      md: "30px",
+      lg: "30px",
+    },
+    marginBottom: {
+      xs: "2rem",
+      sm: "2rem",
+      md: "0",
+      lg: "0",
+    },
+    ...descriptionContainerStyle,
+  };
+
+  const descriptionContainerStyle2 = {
+    paddingLeft: {
+      xs: "0",
+      sm: "0",
+      md: "30px",
+      lg: "30px",
+    },
+    ...descriptionContainerStyle,
   };
 
   const imageContainerStyle = {
@@ -33,7 +65,7 @@ export default function Projects() {
       <h1>Projects</h1>
       <Container maxWidth="md">
         <div style={containerStyle}>
-          <div style={descriptionContainerStyle}>
+          <Box sx={descriptionContainerStyle1}>
             <div>
               <h3>Build something cool together</h3>
               <p>
@@ -48,8 +80,8 @@ export default function Projects() {
                 semester.
               </p>
             </div>
-          </div>
-          <div style={imageContainerStyle}>
+          </Box>
+          <div>
             <BlueOffsetImage
               src={peopleImage2}
               alt="more acc people having a blast"
@@ -67,7 +99,7 @@ export default function Projects() {
               height={369}
             />
           </div>
-          <Container maxWidth="sm" sx={descriptionContainerStyle}>
+          <Box sx={descriptionContainerStyle2}>
             <div>
               <h3>Or start something awesome</h3>
               <p>
@@ -80,7 +112,7 @@ export default function Projects() {
                 Contact project officers for any questions regarding projects.
               </p>
             </div>
-          </Container>
+          </Box>
         </div>
       </Container>
       <PastProjects />
