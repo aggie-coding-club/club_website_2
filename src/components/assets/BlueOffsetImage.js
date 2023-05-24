@@ -1,4 +1,5 @@
 import { useTheme } from "@emotion/react";
+import { Box } from "@mui/material";
 
 /**
  *
@@ -11,6 +12,14 @@ export default function BlueOffsetImage({ src, alt, width, height }) {
   const theme = useTheme();
   const w = width ? width : 300;
   const h = height ? height : 400;
+
+  const boxStyle = {
+    display: {
+      xs: "none",
+      sm: "none",
+      md: "flex",
+    },
+  };
 
   const containerStyle = {
     position: "relative",
@@ -28,9 +37,11 @@ export default function BlueOffsetImage({ src, alt, width, height }) {
     backgroundColor: theme.palette.info.main,
   };
   return (
-    <div style={containerStyle}>
-      <img src={src} alt={alt} width={width} height={height} />
-      <div style={blueBoxStyle}></div>
-    </div>
+    <Box sx={boxStyle}>
+      <div style={containerStyle}>
+        <img src={src} alt={alt} width={width} height={height} />
+        <div style={blueBoxStyle}></div>
+      </div>
+    </Box>
   );
 }

@@ -39,7 +39,7 @@ export default function WhatWeDo() {
     display: {
       xs: "none",
       sm: "none",
-      md: "flex",
+      md: "block",
     },
     flexGrow: 1,
     justifyContent: "center",
