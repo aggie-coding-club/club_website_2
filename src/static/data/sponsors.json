@@ -1,0 +1,48 @@
+{
+  "sponsors": [
+    {
+      "key": 1,
+      "name": "Google"
+    },
+    {
+      "key": 2,
+      "name": "General Motors"
+    },
+    {
+      "key": 3,
+      "name": "Frogslayer"
+    },
+    {
+      "key": 4,
+      "name": "PwC"
+    },
+    {
+      "key": 5,
+      "name": "Goldman Sachs"
+    },
+    {
+      "key": 6,
+      "name": "Pariveda"
+    },
+    {
+      "key": 7,
+      "name": "Capsher"
+    },
+    {
+      "key": 8,
+      "name": "Bell Textron"
+    },
+    {
+      "key": 9,
+      "name": "Paycom"
+    },
+    {
+      "key": 10,
+      "name": "Charles Schwab"
+    },
+    {
+      "key": 11,
+      "name": "hcss"
+    }
+  ]
+}

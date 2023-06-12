@@ -1,52 +1,32 @@
-import { useState, useEffect } from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import capsher from "../../../static/sponsors/capsher.png";
-import { Button } from "@mui/material";
+import allSponsors from "../../../static/data/sponsors.json"
+
+const sponsors = allSponsors.sponsors
 
 export default function Sponsors() {
-  let [dummyData, setDummyData] = useState([])
 
-  useEffect(() => {
-    console.log("loading dummy data");
-    loadDummyData();
-  }, []);
-
-  function loadDummyData() {
-    let dat = []
-    for (let i = 0; i < 10; i++) {
-      dat.push({ key: i, src: capsher });
-    }
-
-    setDummyData(dat)
-
+  function formatName(name) {
+    return name.toLowerCase().replaceAll(" ", "_") + ".jpg";
   }
   return (
     <div>
       <h1>Sponsors</h1>
 
       <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
-        {dummyData.map((data) => (
-          <ImageListItem key={data.key}>
+        {sponsors.map((sponsor) => (
+          <ImageListItem key={sponsor.key}>
             <img
-              src={data.src}
-              alt={"capsher logo"}
+              src={require(`../../../static/images/sponsors/${formatName(sponsor.name)}`)}
+              alt={`${sponsor.name} logo`}
               loading="lazy"
-              width={164}
-              height={164}
+              width={100}
+              height= {100}
             />
           </ImageListItem>
         ))}
       </ImageList>
 
-      <Button onClick={() => console.log(dummyData)}>click</Button>
-      <img
-        src={capsher}
-        alt={"capsher logo"}
-        loading="lazy"
-        width={164}
-        height={164}
-      />
     </div>
   );
 }
