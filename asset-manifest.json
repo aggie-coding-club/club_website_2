@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/club_website_2/static/css/main.db5b971a.css",
-    "main.js": "/club_website_2/static/js/main.a2c0c5c6.js",
+    "main.css": "/club_website_2/static/css/main.e30796a1.css",
+    "main.js": "/club_website_2/static/js/main.79d4b2f4.js",
     "static/media/casey_pei.jpg": "/club_website_2/static/media/casey_pei.03ee3f505a531724e136.jpg",
     "static/media/jay_de_vera.jpg": "/club_website_2/static/media/jay_de_vera.6c0553e30cbd285186c1.jpg",
     "static/media/jad_khalili.jpg": "/club_website_2/static/media/jad_khalili.e6e2382d202994df7134.jpg",
+    "static/media/andrew_mao.jpg": "/club_website_2/static/media/andrew_mao.0ef5b0776e96508efcec.jpg",
     "static/media/ezra_jeter.jpg": "/club_website_2/static/media/ezra_jeter.a9855b849ca9546aa214.jpg",
+    "static/media/ryan_kabir.jpg": "/club_website_2/static/media/ryan_kabir.ad81a0c3345956edadf2.jpg",
+    "static/media/carlos_acosta.jpg": "/club_website_2/static/media/carlos_acosta.5bd552c6f82067f7e9c2.jpg",
+    "static/media/aj_bamgbelu.jpg": "/club_website_2/static/media/aj_bamgbelu.16472e996de0850ead87.jpg",
+    "static/media/christion_bradley.jpg": "/club_website_2/static/media/christion_bradley.16755799bc4d2c2ca9d9.jpg",
     "static/media/mitchell_eldridge.jpg": "/club_website_2/static/media/mitchell_eldridge.17d8e091b9e16509d697.jpg",
+    "static/media/warren_wu.jpg": "/club_website_2/static/media/warren_wu.5649e702449249880cb1.jpg",
     "static/media/people1.png": "/club_website_2/static/media/people1.b51c30f235889a75ab0a.png",
+    "static/media/carol_geng.jpg": "/club_website_2/static/media/carol_geng.f62e0cd4b33a9cf019ce.jpg",
+    "static/media/charles_schwab.jpg": "/club_website_2/static/media/charles_schwab.ea2a483c362cd1e456ab.jpg",
     "static/media/people3.png": "/club_website_2/static/media/people3.8ad201aee18cf6fab070.png",
     "static/media/anthony_teo.jpg": "/club_website_2/static/media/anthony_teo.323170ff781100de0704.jpg",
     "static/media/harsh_gangaramani.jpg": "/club_website_2/static/media/harsh_gangaramani.0795a2ab0615297b2390.jpg",
@@ -29,18 +37,23 @@
     "static/media/rohit_mucherla.jpg": "/club_website_2/static/media/rohit_mucherla.a54f84fda1cd61904c2c.jpg",
     "static/media/anikait_sharma.jpg": "/club_website_2/static/media/anikait_sharma.b9c2ba614403c6e7b763.jpg",
     "static/media/sofia_ortega.jpg": "/club_website_2/static/media/sofia_ortega.f7809e28d534e7eb76e7.jpg",
+    "static/media/yuqian_cao.jpg": "/club_website_2/static/media/yuqian_cao.5e27dd263ba9cae513a4.jpg",
     "static/media/edgar_martinez.jpg": "/club_website_2/static/media/edgar_martinez.9fc2c430a845ebf9c7a0.jpg",
     "static/media/gabriel_britain.jpg": "/club_website_2/static/media/gabriel_britain.411579709affd92477f0.jpg",
     "static/media/tony_zhu.jpg": "/club_website_2/static/media/tony_zhu.8ad716b7aaa6ef73d8e0.jpg",
+    "static/media/goldman_sachs.jpg": "/club_website_2/static/media/goldman_sachs.5ddd99c624267cbef0a2.jpg",
+    "static/media/bell_textron.jpg": "/club_website_2/static/media/bell_textron.ff7070ac4f571ab31075.jpg",
     "static/media/people2.jpg": "/club_website_2/static/media/people2.e4958c5c436150324876.jpg",
     "static/media/people0.jpg": "/club_website_2/static/media/people0.7df3547e41c75e9ae813.jpg",
     "static/media/computer.png": "/club_website_2/static/media/computer.2ac3c0ac6486a16236eb.png",
+    "static/media/pwc.jpg": "/club_website_2/static/media/pwc.9d06c7de5c764880f5e9.jpg",
+    "static/media/pariveda.jpg": "/club_website_2/static/media/pariveda.1e0e656467cadc27dcb6.jpg",
     "index.html": "/club_website_2/index.html",
-    "main.db5b971a.css.map": "/club_website_2/static/css/main.db5b971a.css.map",
-    "main.a2c0c5c6.js.map": "/club_website_2/static/js/main.a2c0c5c6.js.map"
+    "main.e30796a1.css.map": "/club_website_2/static/css/main.e30796a1.css.map",
+    "main.79d4b2f4.js.map": "/club_website_2/static/js/main.79d4b2f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.db5b971a.css",
-    "static/js/main.a2c0c5c6.js"
+    "static/css/main.e30796a1.css",
+    "static/js/main.79d4b2f4.js"
   ]
 }
