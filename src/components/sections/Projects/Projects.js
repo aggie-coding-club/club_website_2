@@ -55,11 +55,6 @@ export default function Projects() {
     ...descriptionContainerStyle,
   };
 
-  const imageContainerStyle = {
-    flexGrow: 1,
-    display: "flex",
-    justifyContent: "center",
-  };
   return (
     <div id="projects">
       <h1>Projects</h1>

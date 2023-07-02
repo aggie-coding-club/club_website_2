@@ -10,6 +10,7 @@ import Footer from "./components/sections/Footer/Footer";
 
 import { ThemeProvider } from "@emotion/react";
 import { Container, createTheme } from "@mui/material";
+import Sponsors from "./components/sections/Sponsors/Sponsors";
 
 export const theme = createTheme({
   palette: {
@@ -50,6 +51,7 @@ function App() {
           <Schedule />
           <Projects />
           <OfficerTeam />
+          <Sponsors />
           <Footer />
         </Container>
       </ThemeProvider>
