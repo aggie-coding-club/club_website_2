@@ -1,6 +1,6 @@
 import Paper from "@mui/material/Paper";
 
-export default function Sponsor({name}) {
+export default function SponsorCard({name}) {
   function formatName(name) {
     return name.toLowerCase().replaceAll(" ", "_") + ".jpg";
   }

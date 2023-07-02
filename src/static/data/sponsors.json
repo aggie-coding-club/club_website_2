@@ -1,59 +1,54 @@
 {
-  "sponsors": [
-    {
-      "key": 1,
-      "name": "General Motors",
-      "tier": "Gold"
-    },
-    {
-      "key": 2,
-      "name": "Google",
-      "tier": "Gold"
-    },
-    {
-      "key": 3,
-      "name": "Frogslayer",
-      "tier": "Gold"
-    },
-    {
-      "key": 4,
-      "name": "PwC",
-      "tier": "Silver"
-    },
-    {
-      "key": 5,
-      "name": "Goldman Sachs",
-      "tier": "Silver"
-    },
-    {
-      "key": 6,
-      "name": "Pariveda",
-      "tier": "Silver"
-    },
-    {
-      "key": 7,
-      "name": "Capsher",
-      "tier": "Silver"
-    },
-    {
-      "key": 8,
-      "name": "Bell Textron",
-      "tier": "Silver"
-    },
-    {
-      "key": 9,
-      "name": "Paycom",
-      "tier": "Bronze"
-    },
-    {
-      "key": 10,
-      "name": "Charles Schwab",
-      "tier": "Bronze"
-    },
-    {
-      "key": 11,
-      "name": "HCSS",
-      "tier": "Bronze"
-    }
-  ]
+  "sponsors": {
+    "gold": [
+      {
+        "key": 1,
+        "name": "General Motors"
+      },
+      {
+        "key": 2,
+        "name": "Google"
+      },
+      {
+        "key": 3,
+        "name": "Frogslayer"
+      }
+    ],
+    "silver": [
+      {
+        "key": 4,
+        "name": "PwC"
+      },
+      {
+        "key": 5,
+        "name": "Goldman Sachs"
+      },
+      {
+        "key": 6,
+        "name": "Pariveda"
+      },
+      {
+        "key": 7,
+        "name": "Capsher"
+      },
+      {
+        "key": 8,
+        "name": "Bell Textron"
+      }
+    ],
+    "bronze": [
+      {
+        "key": 9,
+        "name": "Paycom"
+      },
+      {
+        "key": 10,
+        "name": "Charles Schwab"
+      },
+      {
+        "key": 11,
+        "name": "HCSS"
+      }
+    ]
+  }
 }
