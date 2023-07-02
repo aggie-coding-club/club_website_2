@@ -2,47 +2,58 @@
   "sponsors": [
     {
       "key": 1,
-      "name": "Google"
+      "name": "General Motors",
+      "tier": "Gold"
     },
     {
       "key": 2,
-      "name": "General Motors"
+      "name": "Google",
+      "tier": "Gold"
     },
     {
       "key": 3,
-      "name": "Frogslayer"
+      "name": "Frogslayer",
+      "tier": "Gold"
     },
     {
       "key": 4,
-      "name": "PwC"
+      "name": "PwC",
+      "tier": "Silver"
     },
     {
       "key": 5,
-      "name": "Goldman Sachs"
+      "name": "Goldman Sachs",
+      "tier": "Silver"
     },
     {
       "key": 6,
-      "name": "Pariveda"
+      "name": "Pariveda",
+      "tier": "Silver"
     },
     {
       "key": 7,
-      "name": "Capsher"
+      "name": "Capsher",
+      "tier": "Silver"
     },
     {
       "key": 8,
-      "name": "Bell Textron"
+      "name": "Bell Textron",
+      "tier": "Silver"
     },
     {
       "key": 9,
-      "name": "Paycom"
+      "name": "Paycom",
+      "tier": "Bronze"
     },
     {
       "key": 10,
-      "name": "Charles Schwab"
+      "name": "Charles Schwab",
+      "tier": "Bronze"
     },
     {
       "key": 11,
-      "name": "HCSS"
+      "name": "HCSS",
+      "tier": "Bronze"
     }
   ]
 }
