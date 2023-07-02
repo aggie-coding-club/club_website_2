@@ -1,32 +1,35 @@
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
-import allSponsors from "../../../static/data/sponsors.json"
+import allSponsors from "../../../static/data/sponsors.json";
+import Sponsor from "./Sponsor";
+import Box from "@mui/material/Box/Box";
 
-const sponsors = allSponsors.sponsors
+const sponsors = allSponsors.sponsors;
 
 export default function Sponsors() {
-
-  function formatName(name) {
-    return name.toLowerCase().replaceAll(" ", "_") + ".jpg";
-  }
+  const container = {
+    display: "flex",
+    justifyContent: "center",
+  };
+  const sponsorsFlexBox = {
+    display: "flex",
+    justifyContent: "center",
+    gap: "20px",
+    flexWrap: "wrap",
+    maxWidth: {
+      sm: "80vw",
+      md: "50vw"
+    }
+  };
   return (
     <div>
       <h1>Sponsors</h1>
 
-      <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
-        {sponsors.map((sponsor) => (
-          <ImageListItem key={sponsor.key}>
-            <img
-              src={require(`../../../static/images/sponsors/${formatName(sponsor.name)}`)}
-              alt={`${sponsor.name} logo`}
-              loading="lazy"
-              width={100}
-              height= {100}
-            />
-          </ImageListItem>
-        ))}
-      </ImageList>
-
+      <div style={container}>
+        <Box sx={sponsorsFlexBox}>
+          {sponsors.map((sponsor) => (
+            <Sponsor name={sponsor.name} />
+          ))}
+        </Box>
+      </div>
     </div>
   );
 }
