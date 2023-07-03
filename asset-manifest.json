@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/club_website_2/static/css/main.e30796a1.css",
-    "main.js": "/club_website_2/static/js/main.11924858.js",
+    "main.js": "/club_website_2/static/js/main.a644632f.js",
     "static/media/casey_pei.jpg": "/club_website_2/static/media/casey_pei.03ee3f505a531724e136.jpg",
     "static/media/jay_de_vera.jpg": "/club_website_2/static/media/jay_de_vera.6c0553e30cbd285186c1.jpg",
     "static/media/jad_khalili.jpg": "/club_website_2/static/media/jad_khalili.e6e2382d202994df7134.jpg",
     "static/media/andrew_mao.jpg": "/club_website_2/static/media/andrew_mao.0ef5b0776e96508efcec.jpg",
+    "static/media/carol_geng.jpg": "/club_website_2/static/media/carol_geng.093ec0ea77ad087a0005.jpg",
     "static/media/ezra_jeter.jpg": "/club_website_2/static/media/ezra_jeter.a9855b849ca9546aa214.jpg",
     "static/media/ryan_kabir.jpg": "/club_website_2/static/media/ryan_kabir.ad81a0c3345956edadf2.jpg",
     "static/media/carlos_acosta.jpg": "/club_website_2/static/media/carlos_acosta.5bd552c6f82067f7e9c2.jpg",
@@ -14,7 +15,6 @@
     "static/media/mitchell_eldridge.jpg": "/club_website_2/static/media/mitchell_eldridge.17d8e091b9e16509d697.jpg",
     "static/media/warren_wu.jpg": "/club_website_2/static/media/warren_wu.5649e702449249880cb1.jpg",
     "static/media/people1.png": "/club_website_2/static/media/people1.b51c30f235889a75ab0a.png",
-    "static/media/carol_geng.jpg": "/club_website_2/static/media/carol_geng.f62e0cd4b33a9cf019ce.jpg",
     "static/media/charles_schwab.jpg": "/club_website_2/static/media/charles_schwab.ea2a483c362cd1e456ab.jpg",
     "static/media/people3.png": "/club_website_2/static/media/people3.8ad201aee18cf6fab070.png",
     "static/media/anthony_teo.jpg": "/club_website_2/static/media/anthony_teo.323170ff781100de0704.jpg",
@@ -50,10 +50,10 @@
     "static/media/pariveda.jpg": "/club_website_2/static/media/pariveda.1e0e656467cadc27dcb6.jpg",
     "index.html": "/club_website_2/index.html",
     "main.e30796a1.css.map": "/club_website_2/static/css/main.e30796a1.css.map",
-    "main.11924858.js.map": "/club_website_2/static/js/main.11924858.js.map"
+    "main.a644632f.js.map": "/club_website_2/static/js/main.a644632f.js.map"
   },
   "entrypoints": [
     "static/css/main.e30796a1.css",
-    "static/js/main.11924858.js"
+    "static/js/main.a644632f.js"
   ]
 }
