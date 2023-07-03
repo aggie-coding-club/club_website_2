@@ -22,9 +22,11 @@ h1 {
 h2 {
   font-weight: 600;
   font-size: 30px;
+  text-align: center;
 }
 
 h6 {
+  font-size: 16px;
   text-align: center;
 }
 

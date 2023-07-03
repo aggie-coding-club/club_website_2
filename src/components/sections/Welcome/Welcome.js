@@ -1,10 +1,12 @@
 import DiscordButton from "../../assets/DiscordButton";
 import logo from "../../../static/icons/computer.png";
 import { useTheme } from "@emotion/react";
-import { Box } from "@mui/material";
+import { Box, useMediaQuery } from "@mui/material";
 
 export default function Welcome() {
   const theme = useTheme();
+
+  const isLg = useMediaQuery(theme.breakpoints.up("lg"));
 
   const containerStyle = {
     backgroundColor: theme.palette.info.main,
@@ -17,38 +19,45 @@ export default function Welcome() {
   };
 
   const contentStyle = {
-    margin: "0 100px",
+    margin: isLg ? "0 100px" : 0,
     display: "flex",
     direction: "row",
     justifyContent: "center",
-  }
+  };
 
   const imageContainerStyle = {
-    width: "250px",
+    display: {
+      xs: "none",
+      sm: "none",
+      md: "none",
+      lg: "flex",
+    },
+    alignItems: "center",
   };
 
   const headingStyle = {
-    textAlign: "left",
-    margin: 0
+    textAlign: isLg ? "left" : "center",
+    margin: 0,
   };
 
   const headingEmphasisStyle = {
     color: theme.palette.text.secondary,
     marginTop: "-1rem",
     ...headingStyle,
-
   };
 
   const textStyle = {
-    marginRight: "100px"
-  }
+    margin: isLg ? "0 100px 0 0" : "0 10px",
+    textAlign: isLg ? "left" : "center",
+    maxWidth: "750px",
+  };
 
   return (
     <Box sx={containerStyle}>
       <div style={contentStyle}>
         <div style={textStyle}>
           <div>
-            <h1 style={headingStyle}>Welcome to the</h1>
+            <h1 style={headingStyle}>Welcome to </h1>
             <h1 style={headingEmphasisStyle}>Aggie Coding Club!</h1>
           </div>
 
@@ -62,9 +71,9 @@ export default function Welcome() {
           </p>
           <DiscordButton />
         </div>
-        <div style={imageContainerStyle}>
+        <Box sx={imageContainerStyle}>
           <img src={logo} alt="ACC Logo" />
-        </div>
+        </Box>
       </div>
     </Box>
   );

@@ -10,6 +10,7 @@ import Footer from "./components/sections/Footer/Footer";
 
 import { ThemeProvider } from "@emotion/react";
 import { Container, createTheme } from "@mui/material";
+import Sponsors from "./components/sections/Sponsors/Sponsors";
 
 export const theme = createTheme({
   palette: {
@@ -32,9 +33,9 @@ export const theme = createTheme({
       values: {
         sm: 400,
         md: 600,
-        lg: 800
-      }
-    }
+        lg: 800,
+      },
+    },
   },
 });
 
@@ -50,6 +51,7 @@ function App() {
           <Schedule />
           <Projects />
           <OfficerTeam />
+          <Sponsors />
           <Footer />
         </Container>
       </ThemeProvider>
