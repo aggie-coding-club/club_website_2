@@ -2,19 +2,19 @@
   {
     "key": 1,
     "name": "Rev Registration",
-    "description": "Rev Registration is an automatic class scheduler for Texas A&M, that generates schedules given the courses a student would like to take and what preferences they have.",
+    "description": "Rev Registration is an automatic class scheduler for Texas A&M that generates schedules given the courses a student would like to take and what preferences they have. ",
     "linkAddress": "https://github.com/aggie-coding-club/Rev-Registration"
   },
   {
     "key": 2,
     "name": "Gesture",
-    "description": "Gesture is a desktop application that allows the user to control various applications through hand gestures like opening browsers at numerous links using AI technologies ",
+    "description": "Gesture is a desktop application that allows the user to control various applications through hand gestures like opening browsers at numerous links using AI technologies. ",
     "linkAddress": "https://github.com/aggie-coding-club/Gesture"
   },
   {
     "key": 3,
     "name": "Aggie Engine",
-    "description": "AggiEngine is a 2D game engine, designed for making game development easier. AggiEngine provides GUI, physics, state management and more ",
+    "description": "AggiEngine is a 2D game engine, designed for making game development easier. AggiEngine provides GUI, physics, state management and more. ",
     "linkAddress": "https://github.com/aggie-coding-club/AggiEngine"
   }
 ]

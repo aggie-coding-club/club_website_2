@@ -57,7 +57,7 @@ export default function Welcome() {
       <div style={contentStyle}>
         <div style={textStyle}>
           <div>
-            <h1 style={headingStyle}>Welcome to the</h1>
+            <h1 style={headingStyle}>Welcome to </h1>
             <h1 style={headingEmphasisStyle}>Aggie Coding Club!</h1>
           </div>
 

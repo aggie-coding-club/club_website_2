@@ -98,9 +98,9 @@ export default function Projects() {
             <div>
               <h3>Or start something awesome</h3>
               <p>
-                Do you have a great project idea ? Are you interested in
+                Do you have a great project idea? Are you interested in
                 learning more about project management? You might want to
-                consider becoming a project manager.
+                consider becoming an ACC project manager.
               </p>
               <p>
                 Project manager applications open at the start of each semester.
