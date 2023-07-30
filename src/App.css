@@ -30,14 +30,14 @@ h6 {
   text-align: center;
 }
 
-a {
+.header-link {
   text-decoration: none;
   opacity: 60%;
   transition: opacity 0.5s ease-out;
 }
 
-a:hover,
-a:focus {
+.header-link:hover,
+.header-link:focus {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   opacity: 100%;
