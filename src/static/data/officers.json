@@ -15,13 +15,6 @@
     },
 
     {
-      "name": "Casey Pei",
-      "major": "Computer Science '25",
-      "position": "Vice President",
-      "description": "Casey is a sophomore Computer Science major with a Stats minor who only occasionally refers to herself in the third person. She enjoys digital drawing, typing tests, and scrolling endlessly on twitter."
-    },
-
-    {
       "name": "Ezra Jeter",
       "major": "Computer Engineering '25",
       "position": "Events and Marketing Chair",
@@ -40,13 +33,6 @@
       "major": "Computer Science '25",
       "position": "Workshops Chair",
       "description": "Hi, I'm Jad! I joined ACC in Fall 2021 as a freshman, later becoming a Workshops Officer during my sophomore year. Outside of school and ACC, I love to play basketball, soccer, and scuba dive. I can't wait to help share the world of coding with y'all!"
-    },
-
-    {
-      "name": "Ryan Kabir",
-      "major": "Computer Engineering '25",
-      "position": "Events and Marketing Officer",
-      "description": "Ryan is one of our wonderful events and marketing officers and is pursuing software engineering internships this summer!"
     },
 
     {
@@ -96,10 +82,28 @@
       "major": "Computer Science '25",
       "position": "Events and Marketing Officer",
       "description": "Carol is one of our wonderful events and marketing officers and a Software Engineering Intern with J.P. Morgan Chase this summer!"
+    },
+    {
+      "name": "Andrew Beketov",
+      "major": "Computer Engineering '25",
+      "position": "Workshops Officer",
+      "description": "Besides coding, I enjoy going out with friends, playings sports, and cooking. I also have a funny cat named Mickey!"
     }
   ],
 
   "former": [
+    {
+      "name": "Casey Pei",
+      "major": "Computer Science '25",
+      "position": "Vice President",
+      "description": "Casey is a sophomore Computer Science major with a Stats minor who only occasionally refers to herself in the third person. She enjoys digital drawing, typing tests, and scrolling endlessly on twitter."
+    },
+    {
+      "name": "Ryan Kabir",
+      "major": "Computer Engineering '25",
+      "position": "Events and Marketing Officer",
+      "description": "Ryan is one of our wonderful events and marketing officers and is pursuing software engineering internships this summer!"
+    },
     {
       "name": "Dakshika Srivastava",
       "major": "Computer Science' 23",
