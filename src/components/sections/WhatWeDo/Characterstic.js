@@ -44,7 +44,7 @@ export default function Characterstic({ num, header, description }) {
   };
 
   return (
-    <div style={containerStyle}>
+    <div style={containerStyle} className="zoom">
       <div>
         <div style={numberContainerStyle}>
           <div style={numberStyle}>0{num}</div>

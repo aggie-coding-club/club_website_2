@@ -1,5 +1,10 @@
 {
   "sponsors": {
+    "gold": [],
+    "silver": [],
+    "bronze": []
+  },
+  "former_sponsors": {
     "gold": [
       {
         "key": 1,

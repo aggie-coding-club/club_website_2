@@ -25,7 +25,7 @@ export default function LinkTags({ linkData }) {
   return (
     <div style={containerStyle}>
       {linkData.map((aLink) => (
-        <a href={aLink.link} class="header-link" style={linkStyle}>
+        <a key={aLink.name} href={aLink.link} className="header-link" style={linkStyle}>
           {aLink.name}
         </a>
       ))}

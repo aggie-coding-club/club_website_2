@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Container maxWidth="lg">
+        <main className="sm:w-[75%] w-[95%] mx-auto">
           <Header />
           <Welcome />
           <WhatWeDo />
@@ -53,7 +53,7 @@ function App() {
           <OfficerTeam />
           <Sponsors />
           <Footer />
-        </Container>
+        </main>
       </ThemeProvider>
     </div>
   );
