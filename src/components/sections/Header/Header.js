@@ -65,7 +65,7 @@ export default function Header() {
   return (
     <div style={flexRow}>
       <div className="py-3">
-        <a href="#">
+        <a href="/#">
           <img src={accIcon} alt="ACC Icon" width={125} />
         </a>
       </div>

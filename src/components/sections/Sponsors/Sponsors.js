@@ -1,7 +1,7 @@
 import allSponsors from "../../../static/data/sponsors.json";
 import SponsorCards from "./SponsorCards";
 
-const sponsors = allSponsors.sponsors;
+//const sponsors = allSponsors.sponsors;
 const former_sponsors = allSponsors.former_sponsors;
 
 export default function Sponsors() {

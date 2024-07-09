@@ -9,7 +9,7 @@ import OfficerTeam from "./components/sections/OfficerTeam/OfficerTeam";
 import Footer from "./components/sections/Footer/Footer";
 
 import { ThemeProvider } from "@emotion/react";
-import { Container, createTheme } from "@mui/material";
+import { createTheme } from "@mui/material";
 import Sponsors from "./components/sections/Sponsors/Sponsors";
 
 export const theme = createTheme({
