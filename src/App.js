@@ -9,7 +9,7 @@ import OfficerTeam from "./components/sections/OfficerTeam/OfficerTeam";
 import Footer from "./components/sections/Footer/Footer";
 
 import { ThemeProvider } from "@emotion/react";
-import { Container, createTheme } from "@mui/material";
+import { createTheme } from "@mui/material";
 import Sponsors from "./components/sections/Sponsors/Sponsors";
 
 export const theme = createTheme({
@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Container maxWidth="lg">
+        <main className="sm:w-[75%] w-[95%] mx-auto">
           <Header />
           <Welcome />
           <WhatWeDo />
@@ -53,7 +53,7 @@ function App() {
           <OfficerTeam />
           <Sponsors />
           <Footer />
-        </Container>
+        </main>
       </ThemeProvider>
     </div>
   );

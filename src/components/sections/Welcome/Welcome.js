@@ -2,6 +2,8 @@ import DiscordButton from "../../assets/DiscordButton";
 import logo from "../../../static/icons/computer.png";
 import { useTheme } from "@emotion/react";
 import { Box, useMediaQuery } from "@mui/material";
+import Socials from "../../assets/Socials";
+
 
 export default function Welcome() {
   const theme = useTheme();
@@ -16,13 +18,7 @@ export default function Welcome() {
     display: "flex",
     direction: "row",
     justifyContent: "center",
-  };
-
-  const contentStyle = {
-    margin: isLg ? "0 100px" : 0,
-    display: "flex",
-    direction: "row",
-    justifyContent: "center",
+    margin: "0 auto",
   };
 
   const imageContainerStyle = {
@@ -46,22 +42,17 @@ export default function Welcome() {
     ...headingStyle,
   };
 
-  const textStyle = {
-    margin: isLg ? "0 100px 0 0" : "0 10px",
-    textAlign: isLg ? "left" : "center",
-    maxWidth: "750px",
-  };
 
   return (
     <Box sx={containerStyle}>
-      <div style={contentStyle}>
-        <div style={textStyle}>
+      <div className={`flex flex-row justify-center gap-8 sm:px-20 px-4 ${isLg ? 'text-left' : 'text-center'}`}>
+        <div className="flex flex-col gap-6">
           <div>
             <h1 style={headingStyle}>Welcome to </h1>
             <h1 style={headingEmphasisStyle}>Aggie Coding Club!</h1>
           </div>
 
-          <p>
+          <p className="flex">
             Aggie Coding Club provides the students of Texas A&M University that
             are interested in software development the opportunity to explore
             their careers and passions through projects, meetings, and
@@ -69,7 +60,10 @@ export default function Welcome() {
             benefit from valuable networking opportunities and learn from each
             other.
           </p>
-          <DiscordButton />
+          <div className="flex sm:flex-row flex-col gap-10 items-center sm:justify-between">
+            <DiscordButton />
+            <Socials size={40} />
+          </div>
         </div>
         <Box sx={imageContainerStyle}>
           <img src={logo} alt="ACC Logo" />

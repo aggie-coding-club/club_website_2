@@ -21,7 +21,7 @@ export default function OfficerTeam() {
     marginTop: "70px",
   };
   return (
-    <div>
+    <div id="officer-team">
       <div>
         <h1>Officer Team</h1>
         <OfficerCards officers={officers} />

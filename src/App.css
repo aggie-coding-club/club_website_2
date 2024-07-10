@@ -42,3 +42,12 @@ h6 {
   text-decoration-thickness: 3px;
   opacity: 100%;
 }
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+

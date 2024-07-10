@@ -11,7 +11,7 @@ export default function SponsorCard({name}) {
   }
 
   return (
-    <Paper sx={paperStyle}>
+    <Paper sx={paperStyle} className="zoom">
       <img
         src={require(`../../../static/images/sponsors/${formatName(
           name
