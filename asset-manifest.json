@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.15df71ba.css",
-    "main.js": "/static/js/main.85dccc7c.js",
+    "main.css": "/static/css/main.c0c000fa.css",
+    "main.js": "/static/js/main.10d78339.js",
     "static/media/synth_mining.gif": "/static/media/synth_mining.b0815a6a7040d11248b6.gif",
     "static/media/mouseless_mouse.png": "/static/media/mouseless_mouse.c921232d105ae830ccf9.png",
     "static/media/casey_pei.jpg": "/static/media/casey_pei.03ee3f505a531724e136.jpg",
@@ -31,6 +31,7 @@
     "static/media/hannah_gooden.jpg": "/static/media/hannah_gooden.22362ee343307fc68dc5.jpg",
     "static/media/andrew_beketov.jpg": "/static/media/andrew_beketov.1be148e2ab5c4321664f.jpg",
     "static/media/aniket_shirodkar.jpg": "/static/media/aniket_shirodkar.fa3e083aa735a0658a5b.jpg",
+    "static/media/caiti_mcinerny.jpg": "/static/media/caiti_mcinerny.5ac8c645e01bdc1901fb.jpg",
     "static/media/pranav_jain.jpg": "/static/media/pranav_jain.b8324ee91ae3f919691e.jpg",
     "static/media/dakshika_srivastava.jpg": "/static/media/dakshika_srivastava.39c15b079dac58603a4b.jpg",
     "static/media/rebekah_garcia.jpg": "/static/media/rebekah_garcia.dd6fc14f9347d234a2ac.jpg",
@@ -42,6 +43,7 @@
     "static/media/andrew_fennell.jpg": "/static/media/andrew_fennell.ad043ad8f09eef203674.jpg",
     "static/media/gannon_prudhomme.jpg": "/static/media/gannon_prudhomme.809a08885c7f7b3a5b83.jpg",
     "static/media/alsten_okpisz.jpg": "/static/media/alsten_okpisz.aee006eae6a3bc397ec6.jpg",
+    "static/media/ryan_rosario.jpg": "/static/media/ryan_rosario.d49ddd32b82b401ccab9.jpg",
     "static/media/rohit_mucherla.jpg": "/static/media/rohit_mucherla.a54f84fda1cd61904c2c.jpg",
     "static/media/anikait_sharma.jpg": "/static/media/anikait_sharma.b9c2ba614403c6e7b763.jpg",
     "static/media/sofia_ortega.jpg": "/static/media/sofia_ortega.f7809e28d534e7eb76e7.jpg",
@@ -59,11 +61,11 @@
     "static/media/pwc.jpg": "/static/media/pwc.9d06c7de5c764880f5e9.jpg",
     "static/media/pariveda.jpg": "/static/media/pariveda.1e0e656467cadc27dcb6.jpg",
     "index.html": "/index.html",
-    "main.15df71ba.css.map": "/static/css/main.15df71ba.css.map",
-    "main.85dccc7c.js.map": "/static/js/main.85dccc7c.js.map"
+    "main.c0c000fa.css.map": "/static/css/main.c0c000fa.css.map",
+    "main.10d78339.js.map": "/static/js/main.10d78339.js.map"
   },
   "entrypoints": [
-    "static/css/main.15df71ba.css",
-    "static/js/main.85dccc7c.js"
+    "static/css/main.c0c000fa.css",
+    "static/js/main.10d78339.js"
   ]
 }
