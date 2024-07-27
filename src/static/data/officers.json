@@ -88,13 +88,25 @@
       "name": "Aniket Shirodkar",
       "major": "Computer Science '27",
       "position": "Workshops Officer",
-      "description": "Aniket is a Workshops Officer and enjoys running and playing tennis."
+      "description": "Aniket is a workshops officer and enjoys running and playing tennis."
     },
     {
       "name": "Aarya Patel",
       "major": "Computer Science '27",
       "position": "Events Officer",
       "description": "I’m an events officer and summer intern at HEB. I play cello, roblox, and sudoku."
+    },
+    {
+      "name": "Caiti McInerny",
+      "major": "General Engineering '27",
+      "position": "Events Officer",
+      "description": "Caiti is an events officer from Chicago and has two dogs."
+    },
+    {
+      "name": "Ryan Rosario",
+      "major": "Data Engineering '26",
+      "position": "Events Officer",
+      "description": "Hi, I’m Ryan! I’m one of our events officers and a software engineer intern at Chevron!"
     }
   ],
   "former": [
