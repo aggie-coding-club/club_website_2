@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { LinkedinIcon, GithubIcon, UserIcon } from 'lucide-react';
 import { useTheme } from "@emotion/react";
 import { Box } from "@mui/system";
 
@@ -17,6 +18,9 @@ export default function OfficerCard({
   position,
   term,
   description,
+  linkedinurl,
+  githuburl,
+  portfoliourl
 }) {
   const [hover, setHover] = useState(false);
 
@@ -72,6 +76,19 @@ export default function OfficerCard({
     margin: "0 10px",
   };
 
+  const iconContainerStyle = {
+    position: "absolute",
+    bottom: "10px",
+    right: "10px",
+    display: "flex",
+    gap: "8px",
+  };
+
+  const iconStyle = {
+    color: theme.palette.info.main,
+    cursor: "pointer",
+  };
+
   return (
     <Box
       sx={containerStyle}
@@ -93,6 +110,35 @@ export default function OfficerCard({
           <p>{term}</p>
           <p>{description}</p>
         </div>
+      </div>
+      <div style={iconContainerStyle}>
+        {linkedinurl && (
+          <a 
+            href={linkedinurl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LinkedinIcon style={iconStyle} size={24} />
+          </a>
+        )}
+        {githuburl && (
+          <a 
+            href={githuburl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <GithubIcon style={iconStyle} size={24} />
+          </a>
+        )}
+        {portfoliourl && (
+          <a 
+            href={portfoliourl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <UserIcon style={iconStyle} size={24} />
+          </a>
+        )}
       </div>
     </Box>
   );
