@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { LinkedinIcon, GithubIcon, UserIcon } from 'lucide-react';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import PersonIcon from '@mui/icons-material/Person';
 import { useTheme } from "@emotion/react";
 import { Box } from "@mui/system";
 
@@ -118,7 +120,7 @@ export default function OfficerCard({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkedinIcon style={iconStyle} size={24} />
+            <LinkedInIcon style={iconStyle} size={24} />
           </a>
         )}
         {githuburl && (
@@ -127,7 +129,7 @@ export default function OfficerCard({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GithubIcon style={iconStyle} size={24} />
+            <GitHubIcon style={iconStyle} size={24} />
           </a>
         )}
         {portfoliourl && (
@@ -136,7 +138,7 @@ export default function OfficerCard({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <UserIcon style={iconStyle} size={24} />
+            <PersonIcon style={iconStyle} size={24} />
           </a>
         )}
       </div>
