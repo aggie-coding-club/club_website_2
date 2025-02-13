@@ -1,5 +1,5 @@
 import { Container } from "@mui/system";
-import peopleImage2 from "../../../static/images/people/people2.jpg";
+import peopleImage2 from "../../../static/images/people/people5.jpg";
 import peopleImage3 from "../../../static/images/people/people3.png";
 
 import PastProjects from "./PastProjects";
