@@ -20,7 +20,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Checks-outs your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
@@ -33,12 +33,15 @@ jobs:
       - name: test if build actually there
         run: ls build
         
+      - name: Add CNAME file
+        run: |
+          echo "www.aggiecodingclub.com" > ./build/CNAME
+
       - name: Deploy to Github pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main' # Prevent deployment for PRs
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          cname: www.aggiecodingclub.com
 
 

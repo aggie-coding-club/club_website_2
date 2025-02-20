@@ -6,6 +6,7 @@ import OfficerCard from "./OfficerCard";
  *  string major,
  *  string class year
  *  string description (optional)
+ *  string linkedinurl (optional)
  *
  * }
  */
@@ -18,6 +19,9 @@ import OfficerCard from "./OfficerCard";
  * @param {string} officer[].position - The position / role of an officer (eg) Workshops
  * @param {string} officer[].term - The years the officer was in office (eg) 2018 - 2020
  * @param {string} officer[].description - A short description of an officer
+ * @param {string} officer[].linkedinurl - The LinkedIn profile URL of an officer (optional)
+ * @param {string} officer[].githuburl - The GitHub profile URL of an officer (optional)
+ * @param {string} officer[].portfoliourl - The portfolio website URL of an officer (optional)
  * @returns {ReactComponentElement[]} renders the array of officers into cards
  */
 export default function OfficerCards({ officers }) {
@@ -37,6 +41,9 @@ export default function OfficerCards({ officers }) {
           position={officer.position}
           term={officer.term}
           description={officer.description}
+          linkedinurl={officer.linkedinurl}
+          githuburl={officer.githuburl}
+          portfoliourl={officer.portfoliourl}
           key={officer.name}
         />
       ))}
