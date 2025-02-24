@@ -5,7 +5,7 @@ import { Button } from "@mui/material";
  *
  * @param {string} name
  * @param {description} description
- * @param {link} linkAddress link to github repo
+ * @param {link} linkAddress link to github repo or website
  * @returns React component with project organized in card
  */
 export default function ProjectCard({ name, description, linkAddress, imgType }) {
@@ -30,8 +30,7 @@ export default function ProjectCard({ name, description, linkAddress, imgType })
         <h3>{name}</h3>
         <p> {description}</p>
       </div>
-      <div >
-
+      <div>
         <img 
           src={require(`../../../static/images/projects/${formatName()}`)}
           alt={"Image of " + name}
