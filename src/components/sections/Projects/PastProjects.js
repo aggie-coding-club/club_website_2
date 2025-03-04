@@ -4,8 +4,32 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProjectCard from "./ProjectCard";
 import pastProjectsData from "../../../static/data/pastProjectsData.json";
-import { Button } from "@mui/material";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 
+function NextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      onClick={onClick}
+    >
+      <ArrowForwardIosIcon style={{ color: "gray" }} />
+    </div>
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      onClick={onClick}
+    >
+      <ArrowBackIosIcon style={{ color: "gray" }} />
+    </div>
+  );
+}
 
 export default function PastProjects() {
   const sliderSettings = {
@@ -14,8 +38,8 @@ export default function PastProjects() {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
-    autoplay: true,
-    autoplaySpeed: 4000,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -37,7 +61,7 @@ export default function PastProjects() {
   };
 
   return (
-    <div>
+    <div style={{ width: '95%', margin: '0 auto'}}>
       <h1>Past Projects</h1>
       <Slider {...sliderSettings}>
         {pastProjectsData.map((project) => (

@@ -25,8 +25,8 @@ export default function ProjectCard({ name, description, linkAddress, imgType })
   }
 
   return (
-    <div className="flex flex-col items-center zoom px-6 py-8 rounded-lg bg-[#EEF6FF] gap-4" style={{ height: '525px', overflow: 'hidden' }}>
-      <div style={{ height: '250px', overflow: 'hidden' }}>
+    <div className="flex flex-col items-center zoom px-6 py-8 rounded-lg bg-[#EEF6FF]" style={{ height: '530px', overflow: 'hidden', margin: '8px' }}>
+      <div style={{ height: '300px', overflow: 'hidden' }}>
         <h3>{name}</h3>
         <p> {description}</p>
       </div>
