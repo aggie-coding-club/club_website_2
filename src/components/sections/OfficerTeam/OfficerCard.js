@@ -81,7 +81,7 @@ export default function OfficerCard({
       <img
         style={imgStyle}
         src={require(`../../../static/images/officers/${formatName()}`)}
-        alt={`${name} headshot`}
+        alt= "officer headshot"
         width={360}
         height={360}
       />
