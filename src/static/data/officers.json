@@ -4,118 +4,173 @@
       "name": "Jad Khalili",
       "major": "Computer Science '25",
       "position": "President",
-      "description": "Hi, I'm Jad! I joined ACC in Fall 2021 as a freshman, later becoming a Workshops Officer during my sophomore year. Outside of school and ACC, I love to play basketball, soccer, and scuba dive. I can't wait to help share the world of coding with y'all!"
+      "description": "Hi, I'm Jad! I joined ACC in Fall 2021 as a freshman, later becoming a Workshops Officer during my sophomore year. Outside of school and ACC, I love to play basketball, soccer, and scuba dive. I can't wait to help share the world of coding with y'all!",
+      "linkedinurl": "https://www.linkedin.com/in/jad-khalili-a5a479185/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Ezra Jeter",
       "major": "Computer Engineering '25",
       "position": "Events and Marketing Chair",
-      "description": "big coding guy. black honey tea with tapioca enthusiast. 6ft tall"
+      "description": "big coding guy. black honey tea with tapioca enthusiast. 6ft tall",
+      "linkedinurl": "https://www.linkedin.com/in/ezrajeter/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Christion Bradley",
       "major": "Computer Science '25",
       "position": "Projects Chair",
-      "description": "Christion is one of our wonderful projects officers and a summer graphics software engineering intern with Intel!"
+      "description": "Christion is one of our wonderful projects officers and a summer graphics software engineering intern with Intel!",
+      "linkedinurl": "https://www.linkedin.com/in/christion-b-152b78223/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Andrew Beketov",
       "major": "Computer Engineering '25",
       "position": "Workshops Chair",
-      "description": "Besides coding, I enjoy going out with friends, playings sports, and cooking. I also have a funny cat named Mickey!"
+      "description": "Besides coding, I enjoy going out with friends, playings sports, and cooking. I also have a funny cat named Mickey!",
+      "linkedinurl": "https://www.linkedin.com/in/andrew-beketov/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Yuqian Cao",
       "major": "Computer Science '25",
       "position": "Projects Officer",
-      "description": "Yuqian is one of our wonderful projects officers and a VR Research Assistant Intern at the Software Interaction Lab at Texas A&M!"
+      "description": "Yuqian is one of our wonderful projects officers and a VR Research Assistant Intern at the Software Interaction Lab at Texas A&M!",
+      "linkedinurl": "https://www.linkedin.com/in/yuqian-cao-09ily/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Harsh Gangaramani",
       "major": "Computer Science '25",
       "position": "Projects Officer",
-      "description": "Harsh  is one of our wonderful projects officers and a summer software engineering intern with American Airlines!"
+      "description": "Harsh  is one of our wonderful projects officers and a summer software engineering intern with American Airlines!",
+      "linkedinurl": "https://www.linkedin.com/in/harsh-gangaramani/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Carlos Acosta",
       "major": "Computer Science '25",
       "position": "Events and Marketing Officer",
-      "description": "Carlos is one of our wonderful events and marketing officers officers!"
+      "description": "Carlos is one of our wonderful events and marketing officers officers!",
+      "linkedinurl": "https://www.linkedin.com/in/carlos-acosta02/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Warren Wu",
       "major": "Computer Science '26",
       "position": "Workshops Officer",
-      "description": "Warren (aka the goat) is one of our wonderful workshops officers!"
+      "description": "Warren (aka the goat) is one of our wonderful workshops officers!",
+      "linkedinurl": "https://www.linkedin.com/in/warren-wu4/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Andrew Mao",
       "major": "Computer Science '25",
       "position": "Workshops Officer",
-      "description": "Andrew is one of our wonderful workshops officers and a summer software engineering intern with Publicis Sapient this summer in New York City!"
+      "description": "Andrew is one of our wonderful workshops officers and was a software engineering intern with Comcast last summer!",
+      "linkedinurl": "https://www.linkedin.com/in/andrewmao25/",
+      "githuburl": "",
+      "portfoliourl": "https://andrewmao-am.github.io/"
     },
     {
       "name": "AJ Bamgbelu",
       "major": "Computer Science '26",
       "position": "Projects Officer",
-      "description": "A.J. is one of our wonderful projects officers and a summer software engineering intern with Amazon this summer!"
+      "description": "A.J. is one of our wonderful projects officers and a summer software engineering intern with Amazon this summer!",
+      "linkedinurl": "https://www.linkedin.com/in/ajbamgbelu/",
+      "githuburl": "",
+      "portfoliourl": "https://adeobam.com/"
     },
     {
       "name": "Carol Geng",
       "major": "Computer Science '25",
       "position": "Events and Marketing Officer",
-      "description": "Carol is one of our wonderful events and marketing officers and a Software Engineering Intern with J.P. Morgan Chase this summer!"
-    },
-    {
-      "name": "Colin Levine",
-      "major": "Computer Science '26",
-      "position": "Marketing Officer",
-      "description": "Colin is a marketing officer from San Antonio and a summer Explore Intern at Microsoft."
+      "description": "Carol is one of our wonderful events and marketing officers and a Software Engineering Intern with J.P. Morgan Chase this summer!",
+      "linkedinurl": "https://www.linkedin.com/in/carolgeng/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Tejas Kalpathi",
       "major": "Computer Science '27",
       "position": "Workshops Officer",
-      "description": "Hi guys my name is Tejas and I’m from Sugar Land, Texas. In my free time I enjoy long walks on the beach and saving babies from burning buildings."
+      "description": "Hi guys my name is Tejas and I'm from Sugar Land, Texas. In my free time I enjoy long walks on the beach and saving babies from burning buildings.",
+      "linkedinurl": "https://www.linkedin.com/in/tejaskalpathi/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Adam Mackintosh",
       "major": "Electrical Engineering '27",
       "position": "Marketing Officer",
-      "description": "Adam is one of our Marketing Officers and a Meme master. He enjoys all things music. When he's not coding or making memes he's out adventuring or playing video games."
+      "description": "Adam is one of our Marketing Officers and a Meme master. He enjoys all things music. When he's not coding or making memes he's out adventuring or playing video games.",
+      "linkedinurl": "https://www.linkedin.com/in/nathan-mackintosh-3a3a17195/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Aniket Shirodkar",
       "major": "Computer Science '27",
       "position": "Workshops Officer",
-      "description": "Aniket is a workshops officer and enjoys running and playing tennis."
+      "description": "Aniket is a workshops officer and enjoys running and playing tennis.",
+      "linkedinurl": "https://www.linkedin.com/in/aniket-shirodkar/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Aarya Patel",
       "major": "Computer Engineering '27",
       "position": "Events Officer",
-      "description": "I’m an events officer and summer intern at HEB. I play cello, roblox, and sudoku."
+      "description": "I'm an events officer and summer intern at HEB. I play cello, roblox, and sudoku.",
+      "linkedinurl": "https://www.linkedin.com/in/aaryaapatel/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Caiti McInerny",
       "major": "General Engineering '27",
       "position": "Events Officer",
-      "description": "Caiti is an events officer from Chicago and has two dogs."
+      "description": "Caiti is an events officer from Chicago and has two dogs.",
+      "linkedinurl": "https://www.linkedin.com/company/aggie-codingclub/",
+      "githuburl": "",
+      "portfoliourl": ""
     },
     {
       "name": "Ryan Rosario",
       "major": "Data Engineering '26",
       "position": "Events Officer",
+      "description": "Hi, I'm Ryan! I'm one of our events officers and an incoming software engineer intern at Datadog!",
+      "linkedinurl": "https://www.linkedin.com/in/ryanrosario1/",
+      "githuburl": "https://github.com/ryanr158",
+      "portfoliourl": "https://www.google.com/"
       "description": "Hi, I’m Ryan! I’m one of our events officers and a software engineer intern at Chevron!"
     }, 
     {
       "name": "Sophia Phu",
       "major": "Computer Engineering '27",
       "position": "Projects Officer",
+      "linkedinurl": "https://www.linkedin.com/in/sophiaphu/",
+      "githuburl": "https://github.com/sophiaaphu",
+      "portfoliourl": "https://www.sophiaphu.com/"
       "description": "Sophia enjoys programming, project management, and ACC. Out of ACC she is also president of the ENGR TAO organization, a TA for CSCE 120, and a violinist in the TAMU Chamber Orchestra."
     }
   ],
   "former": [
+    {
+      "name": "Colin Levine",
+      "major": "Computer Science '26",
+      "position": "Marketing Officer",
+      "description": "Colin is a marketing officer from San Antonio and a summer Explore Intern at Microsoft."
+    },
     {
       "name": "Sofia Ortega",
       "major": "Computer Engineering '24",
@@ -236,7 +291,7 @@
       "major": "Computer Science '21",
       "position": "Vice President",
       "term": "2020 - 2021",
-      "description": "Anikait has a keen interest in HCI on how we can use technology to increase accessibility for all users. If Anikait was not at Zach procrastinating on his code - he’s probably climbing some rocks, cooking some grub, or concert hopping with his homies!"
+      "description": "Anikait has a keen interest in HCI on how we can use technology to increase accessibility for all users. If Anikait was not at Zach procrastinating on his code - he's probably climbing some rocks, cooking some grub, or concert hopping with his homies!"
     },
     {
       "name": "Hannah Gooden",
