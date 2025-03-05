@@ -92,7 +92,7 @@
     },
     {
       "name": "Aarya Patel",
-      "major": "Computer Science '27",
+      "major": "Computer Engineering '27",
       "position": "Events Officer",
       "description": "I’m an events officer and summer intern at HEB. I play cello, roblox, and sudoku."
     },
@@ -107,6 +107,12 @@
       "major": "Data Engineering '26",
       "position": "Events Officer",
       "description": "Hi, I’m Ryan! I’m one of our events officers and a software engineer intern at Chevron!"
+    }, 
+    {
+      "name": "Sophia Phu",
+      "major": "Computer Engineering '27",
+      "position": "Projects Officer",
+      "description": "Sophia enjoys programming, project management, and ACC. Out of ACC she is also president of the ENGR TAO organization, a TA for CSCE 120, and a violinist in the TAMU Chamber Orchestra."
     }
   ],
   "former": [
