@@ -26,5 +26,33 @@
     "description": "LeetCamp is a learning-focused project that teaches Data Structures and Algorithms through the lens of LeetCode problems, preparing everyone to crush their technical interviews!",
     "linkAddress": "",
     "imgType": "png"
+  },
+  {
+    "key": 5,
+    "name": "Mannequin",
+    "description": "Mannequin uses AI and other parameters to fit you in a 3D model. You can try on clothes from online brands and see how clothes would fit on your personal proportions.",
+    "linkAddress": "",
+    "imgType": "png"
+  },
+  {
+    "key": 6,
+    "name": "Maroon Rides",
+    "description": "Maroon Rides is a project that started at ACC and has gone on to garner 10k+ downloads. It offers a seamless and efficient transportation experience for the Texas A&M University community.",
+    "linkAddress": "https://maroonrides.app/",
+    "imgType": "png"
+  },
+  {
+    "key": 7,
+    "name": "Aggie Seek",
+    "description": "AggieSeek is an application that allows you to search for and select an unlimited number of courses to track. You will get instant notifications anytime the seats or the instructors in your courses change.",
+    "linkAddress": "https://aggieseek.net/",
+    "imgType": "png"
+  },
+  {
+    "key": 8,
+    "name": "Rev Registration",
+    "description": "Rev Registration was a project that streamlined registration at Texas A&M. The project was incorporated by the university to create the registration system used by Aggies today.",
+    "linkAddress": "https://github.com/aggie-coding-club/Rev-Registration",
+    "imgType": "png"
   }
 ]
