@@ -1,6 +1,6 @@
 import { Container } from "@mui/system";
-import peopleImage2 from "../../../static/images/people/people5.jpg";
-import peopleImage3 from "../../../static/images/people/people6.png";
+import peopleImage2 from "../../../static/images/people/people4.jpg";
+import peopleImage3 from "../../../static/images/people/people7.jpg";
 
 import PastProjects from "./PastProjects";
 import BlueOffsetImage from "../../assets/BlueOffsetImage";
@@ -80,7 +80,7 @@ export default function Projects() {
             <BlueOffsetImage
               src={peopleImage2}
               alt="more acc people having a blast"
-              width={369}
+              width={367}
               height={277}
             />
           </div>
@@ -89,9 +89,9 @@ export default function Projects() {
           <div>
             <BlueOffsetImage
               src={peopleImage3}
-              alt="acc members showing off their gingerbread house"
-              width={276}
-              height={369}
+              alt="acc members chatting"
+              width={277}
+              height={277}
             />
           </div>
           <Box sx={descriptionContainerStyle2}>

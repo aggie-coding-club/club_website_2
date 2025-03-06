@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import peopleImage from "../../../static/images/people/people7.jpg";
+import peopleImage from "../../../static/images/people/people5.jpg";
 import BlueOffsetImage from "../../assets/BlueOffsetImage";
 import Characterstic from "./Characterstic";
 

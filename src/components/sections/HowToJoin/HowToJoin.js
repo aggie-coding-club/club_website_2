@@ -1,5 +1,5 @@
 import { Container } from "@mui/system";
-import peopleImage from "../../../static/images/people/people4.jpg";
+import peopleImage from "../../../static/images/people/people6.jpg";
 import BlueOffsetImage from "../../assets/BlueOffsetImage";
 import DiscordButton from "../../assets/DiscordButton";
 import { Box } from "@mui/material";
@@ -59,9 +59,9 @@ export default function HowToJoin() {
             </Box>
           </Container>
           <Box sx={imageContainerStyle}>
-            <BlueOffsetImage src={peopleImage} alt="people in ACC having fun" 
+            <BlueOffsetImage src={peopleImage} alt="people in ACC having fun (presenting)" 
             width={369}
-            height={277}/>
+            height={246}/>
           </Box>
         </div>
       </Container>
