@@ -1,10 +1,5 @@
 {
   "sponsors": {
-    "gold": [],
-    "silver": [],
-    "bronze": []
-  },
-  "former_sponsors": {
     "gold": [
       {
         "key": 1,
@@ -15,11 +10,51 @@
         "name": "Google"
       },
       {
-        "key": 3,
-        "name": "Frogslayer"
+        "key": 7,
+        "name": "Capsher"
+      },
+      {
+        "key": 12,
+        "name": "Futo"
+      },
+      {
+        "key": 13,
+        "name": "Meta"
+      },
+      {
+        "key": 14,
+        "name": "Chevron"
       }
+
     ],
     "silver": [
+      
+      {
+        "key": 15,
+        "name": "Capital One"
+      },
+      {
+        "key": 16,
+        "name": "Reynolds and Reynolds"
+      },
+      {
+        "key": 17,
+        "name": "PCS Software"
+      }
+    ],
+    "bronze": [
+      {
+        "key": 18,
+        "name": "HEB"
+      }
+    ]
+  },
+  "former_sponsors": {
+    "all": [
+      {
+        "key": 3,
+        "name": "Frogslayer"
+      },
       {
         "key": 4,
         "name": "PwC"
@@ -33,15 +68,9 @@
         "name": "Pariveda"
       },
       {
-        "key": 7,
-        "name": "Capsher"
-      },
-      {
         "key": 8,
         "name": "Bell Textron"
-      }
-    ],
-    "bronze": [
+      },
       {
         "key": 9,
         "name": "Paycom"

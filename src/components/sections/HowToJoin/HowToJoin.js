@@ -1,10 +1,11 @@
 import { Container } from "@mui/system";
-import peopleImage from "../../../static/images/people/people1.png";
+import peopleImage from "../../../static/images/people/people6.jpg";
 import BlueOffsetImage from "../../assets/BlueOffsetImage";
 import DiscordButton from "../../assets/DiscordButton";
 import { Box } from "@mui/material";
 
 export default function HowToJoin() {
+  
   const containerStyle = {
     display: "flex",
     direction: "row",
@@ -15,6 +16,7 @@ export default function HowToJoin() {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
+    
   };
 
   const descriptionStyle = {
@@ -57,7 +59,9 @@ export default function HowToJoin() {
             </Box>
           </Container>
           <Box sx={imageContainerStyle}>
-            <BlueOffsetImage src={peopleImage} alt="people in ACC having fun" />
+            <BlueOffsetImage src={peopleImage} alt="people in ACC having fun (presenting)" 
+            width={369}
+            height={246}/>
           </Box>
         </div>
       </Container>
