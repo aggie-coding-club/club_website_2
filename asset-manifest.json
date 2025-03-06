@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0c000fa.css",
-    "main.js": "/static/js/main.5c428c68.js",
+    "main.css": "/static/css/main.b084d228.css",
+    "main.js": "/static/js/main.90a9008b.js",
     "static/media/synth_mining.gif": "/static/media/synth_mining.b0815a6a7040d11248b6.gif",
     "static/media/mouseless_mouse.png": "/static/media/mouseless_mouse.c921232d105ae830ccf9.png",
     "static/media/casey_pei.jpg": "/static/media/casey_pei.03ee3f505a531724e136.jpg",
@@ -19,7 +19,10 @@
     "static/media/colin_levine.jpg": "/static/media/colin_levine.2777baa28e6432531436.jpg",
     "static/media/warren_wu.jpg": "/static/media/warren_wu.5649e702449249880cb1.jpg",
     "static/media/people1.png": "/static/media/people1.b51c30f235889a75ab0a.png",
+    "static/media/aggie_seek.png": "/static/media/aggie_seek.ae7d9748786652b8a5c8.png",
     "static/media/charles_schwab.jpg": "/static/media/charles_schwab.ea2a483c362cd1e456ab.jpg",
+    "static/media/rev_registration.png": "/static/media/rev_registration.389a202e8ffb0858ba02.png",
+    "static/media/sophia_phu.jpg": "/static/media/sophia_phu.a9a6cffe06ad3603c52d.jpg",
     "static/media/people3.png": "/static/media/people3.8ad201aee18cf6fab070.png",
     "static/media/anthony_teo.jpg": "/static/media/anthony_teo.323170ff781100de0704.jpg",
     "static/media/harsh_gangaramani.jpg": "/static/media/harsh_gangaramani.0795a2ab0615297b2390.jpg",
@@ -31,8 +34,10 @@
     "static/media/hannah_gooden.jpg": "/static/media/hannah_gooden.22362ee343307fc68dc5.jpg",
     "static/media/andrew_beketov.jpg": "/static/media/andrew_beketov.1be148e2ab5c4321664f.jpg",
     "static/media/aniket_shirodkar.jpg": "/static/media/aniket_shirodkar.fa3e083aa735a0658a5b.jpg",
+    "static/media/mannequin.png": "/static/media/mannequin.4201db3ce392ee96d9c9.png",
     "static/media/caiti_mcinerny.jpg": "/static/media/caiti_mcinerny.5ac8c645e01bdc1901fb.jpg",
     "static/media/pranav_jain.jpg": "/static/media/pranav_jain.b8324ee91ae3f919691e.jpg",
+    "static/media/maroon_rides.png": "/static/media/maroon_rides.d36b840bfc61060af113.png",
     "static/media/dakshika_srivastava.jpg": "/static/media/dakshika_srivastava.39c15b079dac58603a4b.jpg",
     "static/media/rebekah_garcia.jpg": "/static/media/rebekah_garcia.dd6fc14f9347d234a2ac.jpg",
     "static/media/ryan_hall.jpg": "/static/media/ryan_hall.b4531571adc755c6786f.jpg",
@@ -43,6 +48,7 @@
     "static/media/andrew_fennell.jpg": "/static/media/andrew_fennell.ad043ad8f09eef203674.jpg",
     "static/media/gannon_prudhomme.jpg": "/static/media/gannon_prudhomme.809a08885c7f7b3a5b83.jpg",
     "static/media/alsten_okpisz.jpg": "/static/media/alsten_okpisz.aee006eae6a3bc397ec6.jpg",
+    "static/media/shahshank.jpg": "/static/media/shahshank.6592b9fb8d8f265ff017.jpg",
     "static/media/ryan_rosario.jpg": "/static/media/ryan_rosario.d49ddd32b82b401ccab9.jpg",
     "static/media/rohit_mucherla.jpg": "/static/media/rohit_mucherla.a54f84fda1cd61904c2c.jpg",
     "static/media/anikait_sharma.jpg": "/static/media/anikait_sharma.b9c2ba614403c6e7b763.jpg",
@@ -60,12 +66,16 @@
     "static/media/computer.png": "/static/media/computer.2ac3c0ac6486a16236eb.png",
     "static/media/pwc.jpg": "/static/media/pwc.9d06c7de5c764880f5e9.jpg",
     "static/media/pariveda.jpg": "/static/media/pariveda.1e0e656467cadc27dcb6.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.c0c000fa.css.map": "/static/css/main.c0c000fa.css.map",
-    "main.5c428c68.js.map": "/static/js/main.5c428c68.js.map"
+    "main.b084d228.css.map": "/static/css/main.b084d228.css.map",
+    "main.90a9008b.js.map": "/static/js/main.90a9008b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0c000fa.css",
-    "static/js/main.5c428c68.js"
+    "static/css/main.b084d228.css",
+    "static/js/main.90a9008b.js"
   ]
 }
