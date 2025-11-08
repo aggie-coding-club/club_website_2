@@ -8,13 +8,9 @@ export default function SponsorCards({ tier, sponsors }) {
   const containerStyle = {
     padding: "60px 0",
     marginBottom: tier === "Former Sponsors" ? "0" : "60px",
-    backgroundColor:
-      tier && tier.startsWith("We Love Our Sponsors")
-        ? theme.palette.info.main || "#EEF6FF"
-        : "transparent",
-    borderRadius:
-      tier && tier.startsWith("We Love Our Sponsors") ? "16px" : "0",
-    margin: tier && tier.startsWith("We Love Our Sponsors") ? "40px 20px" : "0",
+    backgroundColor: "transparent",
+    borderRadius: "0",
+    margin: "0",
     position: "relative",
     overflow: "hidden",
   };
