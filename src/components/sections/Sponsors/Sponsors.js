@@ -83,7 +83,7 @@ export default function Sponsors() {
     <div id="sponsors">
       {allCurrentSponsors.length > 0 && (
         <SponsorCards
-          tier="We Love Our Sponsors"
+          tier="We Love Our Sponsors ❤️"
           sponsors={allCurrentSponsors}
         />
       )}

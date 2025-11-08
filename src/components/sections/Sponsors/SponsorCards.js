@@ -9,11 +9,12 @@ export default function SponsorCards({ tier, sponsors }) {
     padding: "60px 0",
     marginBottom: tier === "Former Sponsors" ? "0" : "60px",
     backgroundColor:
-      tier === "We Love Our Sponsors"
+      tier && tier.startsWith("We Love Our Sponsors")
         ? theme.palette.info.main || "#EEF6FF"
         : "transparent",
-    borderRadius: tier === "We Love Our Sponsors" ? "16px" : "0",
-    margin: tier === "We Love Our Sponsors" ? "40px 20px" : "0",
+    borderRadius:
+      tier && tier.startsWith("We Love Our Sponsors") ? "16px" : "0",
+    margin: tier && tier.startsWith("We Love Our Sponsors") ? "40px 20px" : "0",
     position: "relative",
     overflow: "hidden",
   };
