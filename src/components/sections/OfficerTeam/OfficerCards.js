@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import OfficerCard from "./OfficerCard";
 /**
  *
@@ -21,15 +22,22 @@ import OfficerCard from "./OfficerCard";
  * @returns {ReactComponentElement[]} renders the array of officers into cards
  */
 export default function OfficerCards({ officers }) {
-  const containerStyle = {
-    display: "flex",
-    direction: "row",
-    flexWrap: "wrap",
-    justifyContent: "center",
-  };
-
   return (
-    <div style={containerStyle}>
+    <Box
+      sx={{
+        display: "grid",
+        gridTemplateColumns: {
+          xs: "1fr",
+          md: "repeat(2, 1fr)",
+          lg: "repeat(3, 1fr)",
+        },
+        gap: "20px",
+        justifyContent: "center",
+        maxWidth: "1200px",
+        margin: "0 auto",
+        padding: "0 20px",
+      }}
+    >
       {officers.map((officer) => (
         <OfficerCard
           name={officer.name}
@@ -37,9 +45,10 @@ export default function OfficerCards({ officers }) {
           position={officer.position}
           term={officer.term}
           description={officer.description}
+          linkedin={officer.linkedin}
           key={officer.name}
         />
       ))}
-    </div>
+    </Box>
   );
 }

@@ -1,6 +1,126 @@
 {
   "officers": [
     {
+      "name": "AJ Bamgbelu",
+      "major": "Computer Science '26",
+      "position": "President",
+      "description": "A.J. serves as our dedicated president, leading the organization with passion and vision. He brings valuable industry experience as a 2x intern at Meta.",
+      "linkedin": "https://www.linkedin.com/in/ajbamgbelu/"
+    },
+    {
+      "name": "Tejas Kalpathi",
+      "major": "Computer Science '27",
+      "position": "External Vice President",
+      "description": "Hi guys my name is Tejas and I'm from Sugar Land, Texas. In my free time I enjoy playing tennis, pickleball, and watching football.",
+      "linkedin": "https://www.linkedin.com/in/tejaskalpathi/"
+    },
+    {
+      "name": "Aarya Patel",
+      "major": "Computer Engineering '27",
+      "position": "Internal Vice President",
+      "description": "I'm an events officer and summer intern at HEB. I play cello, roblox, and sudoku.",
+      "linkedin": "https://www.linkedin.com/in/aaryaapatel/"
+    },
+    {
+      "name": "Obinna Nwakwue",
+      "major": "Computer Science '27",
+      "position": "Workshops Chair",
+      "description": "Obinna leads our Workshops team and helps organize educational sessions for the club.",
+      "linkedin": "https://www.linkedin.com/in/obinwa05/"
+    },
+    {
+      "name": "Aniket Shirodkar",
+      "major": "Computer Science '27",
+      "position": "Workshops Officer",
+      "description": "Aniket is a workshops officer and enjoys running and playing tennis.",
+      "linkedin": "https://www.linkedin.com/in/aniket-shirodkar/"
+    },
+    {
+      "name": "Jagan Palanikumar",
+      "major": "Computer Science '28",
+      "position": "Workshops Officer",
+      "description": "Jagan helps create and deliver engaging workshops for our members.",
+      "linkedin": "https://www.linkedin.com/in/jagan-palanikumar/"
+    },
+    {
+      "name": "Adam Ryu",
+      "major": "Computer Science '27",
+      "position": "Workshops Officer",
+      "description": "Adam contributes to planning and running our workshop series.",
+      "linkedin": "https://www.linkedin.com/in/adamryu/"
+    },
+    {
+      "name": "Sophia Phu",
+      "major": "Computer Engineering '27",
+      "position": "Projects Chair",
+      "description": "Sophia enjoys programming, project management, and ACC. Out of ACC she is also president of the ENGR TAO organization, a TA for CSCE 120, and a violinist in the TAMU Chamber Orchestra.",
+      "linkedin": "https://www.linkedin.com/in/sophiaphu/"
+    },
+    {
+      "name": "Lance Kakkassery",
+      "major": "Computer Science '28",
+      "position": "Projects Officer",
+      "description": "Lance works with our project teams to help bring ideas to life.",
+      "linkedin": "https://www.linkedin.com/in/lance-kakkassery/"
+    },
+    {
+      "name": "Brandon Yuan",
+      "major": "Computer Science '27",
+      "position": "Projects Officer",
+      "description": "Brandon supports our project initiatives and helps coordinate development efforts.",
+      "linkedin": "https://www.linkedin.com/in/brandonyuann/"
+    },
+    {
+      "name": "Thomas Ducote",
+      "major": "Computer Science '27",
+      "position": "Projects Officer",
+      "description": "Thomas assists in managing and organizing our club's project portfolio.",
+      "linkedin": "https://www.linkedin.com/in/thomas-ducote-b2247026a/"
+    },
+    {
+      "name": "Caiti McInerny",
+      "major": "General Engineering '27",
+      "position": "Events Chair",
+      "description": "Caiti is an events officer from Chicago and has two dogs.",
+      "linkedin": "https://www.linkedin.com/in/cai-mci/"
+    },
+    {
+      "name": "Adam Mackintosh",
+      "major": "Electrical Engineering '27",
+      "position": "Marketing Chair",
+      "description": "Adam is one of our Marketing Officers and a Meme master. He enjoys all things music. When he's not coding or making memes he's out adventuring or playing video games."
+    },
+    {
+      "name": "Ryan Rosario",
+      "major": "Data Engineering '26",
+      "position": "Events Officer",
+      "description": "Hi, I'm Ryan! I'm one of our events officers and a software engineer intern at Chevron!",
+      "linkedin": "https://www.linkedin.com/in/ryanrosario1/"
+    },
+    {
+      "name": "Sanjana Ram",
+      "major": "Computer Science '28",
+      "position": "Events and Marketing Officer",
+      "description": "I'm one of the events officers, I'm from Austin, and while I'm not coding I love painting and playing table top games with friends",
+      "linkedin": "https://www.linkedin.com/in/sanjana-ram-254922314/"
+    },
+    {
+      "name": "Ray You",
+      "major": "Mechanical Engineering '28",
+      "position": "Events and Marketing Officer",
+      "description": "Ray is a marketing officer who loves tennis and art.",
+      "linkedin": "https://www.linkedin.com/in/ray-you/"
+    },
+    {
+      "name": "Lanxi Xu",
+      "major": "Computer Science '28",
+      "position": "Events and Marketing Officer",
+      "description": "Lanxi focuses on Art and Graphics for our Events and Marketing team, creating visual content for the club.",
+      "linkedin": "https://www.linkedin.com/in/lanxi-xu-106091229/"
+    }
+  ],
+  "former": [
+    {
       "name": "Jad Khalili",
       "major": "Computer Science '25",
       "position": "President",
@@ -55,12 +175,6 @@
       "description": "Andrew is one of our wonderful workshops officers and a summer software engineering intern with Publicis Sapient this summer in New York City!"
     },
     {
-      "name": "AJ Bamgbelu",
-      "major": "Computer Science '26",
-      "position": "Projects Officer",
-      "description": "A.J. is one of our wonderful projects officers and a summer software engineering intern with Amazon this summer!"
-    },
-    {
       "name": "Carol Geng",
       "major": "Computer Science '25",
       "position": "Events and Marketing Officer",
@@ -72,50 +186,6 @@
       "position": "Marketing Officer",
       "description": "Colin is a marketing officer from San Antonio and a summer Explore Intern at Microsoft."
     },
-    {
-      "name": "Tejas Kalpathi",
-      "major": "Computer Science '27",
-      "position": "Workshops Officer",
-      "description": "Hi guys my name is Tejas and I’m from Sugar Land, Texas. In my free time I enjoy long walks on the beach and saving babies from burning buildings."
-    },
-    {
-      "name": "Adam Mackintosh",
-      "major": "Electrical Engineering '27",
-      "position": "Marketing Officer",
-      "description": "Adam is one of our Marketing Officers and a Meme master. He enjoys all things music. When he's not coding or making memes he's out adventuring or playing video games."
-    },
-    {
-      "name": "Aniket Shirodkar",
-      "major": "Computer Science '27",
-      "position": "Workshops Officer",
-      "description": "Aniket is a workshops officer and enjoys running and playing tennis."
-    },
-    {
-      "name": "Aarya Patel",
-      "major": "Computer Engineering '27",
-      "position": "Events Officer",
-      "description": "I’m an events officer and summer intern at HEB. I play cello, roblox, and sudoku."
-    },
-    {
-      "name": "Caiti McInerny",
-      "major": "General Engineering '27",
-      "position": "Events Officer",
-      "description": "Caiti is an events officer from Chicago and has two dogs."
-    },
-    {
-      "name": "Ryan Rosario",
-      "major": "Data Engineering '26",
-      "position": "Events Officer",
-      "description": "Hi, I’m Ryan! I’m one of our events officers and a software engineer intern at Chevron!"
-    }, 
-    {
-      "name": "Sophia Phu",
-      "major": "Computer Engineering '27",
-      "position": "Projects Officer",
-      "description": "Sophia enjoys programming, project management, and ACC. Out of ACC she is also president of the ENGR TAO organization, a TA for CSCE 120, and a violinist in the TAMU Chamber Orchestra."
-    }
-  ],
-  "former": [
     {
       "name": "Sofia Ortega",
       "major": "Computer Engineering '24",
