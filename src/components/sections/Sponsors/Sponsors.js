@@ -5,7 +5,6 @@ import SponsorCards from "./SponsorCards";
 import whySponsorImage from "../../../static/images/sponsors/whysponsor.JPG";
 
 const sponsors = allSponsors.sponsors;
-const former_sponsors = allSponsors.former_sponsors;
 
 export default function Sponsors() {
   const theme = useTheme();
