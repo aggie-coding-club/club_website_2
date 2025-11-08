@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useTheme } from "@emotion/react";
 
 /**
@@ -20,14 +21,20 @@ export default function LinkTags({ linkData }) {
   const linkStyle = {
     color: theme.palette.text.primary,
     margin: "0 15px",
+    textDecoration: "none",
   };
 
   return (
     <div style={containerStyle}>
       {linkData.map((aLink) => (
-        <a key={aLink.name} href={aLink.link} className="header-link" style={linkStyle}>
+        <Link
+          key={aLink.name}
+          to={aLink.link}
+          className="header-link"
+          style={linkStyle}
+        >
           {aLink.name}
-        </a>
+        </Link>
       ))}
     </div>
   );

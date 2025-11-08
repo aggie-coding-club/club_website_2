@@ -10,10 +10,7 @@ import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 function NextArrow(props) {
   const { className, onClick } = props;
   return (
-    <div
-      className={className}
-      onClick={onClick}
-    >
+    <div className={className} onClick={onClick}>
       <ArrowForwardIosIcon style={{ color: "gray" }} />
     </div>
   );
@@ -22,10 +19,7 @@ function NextArrow(props) {
 function PrevArrow(props) {
   const { className, onClick } = props;
   return (
-    <div
-      className={className}
-      onClick={onClick}
-    >
+    <div className={className} onClick={onClick}>
       <ArrowBackIosIcon style={{ color: "gray" }} />
     </div>
   );
@@ -36,33 +30,33 @@ export default function PastProjects() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
-    <div style={{ width: '95%', margin: '0 auto'}}>
-      <h1>Past Projects</h1>
+    <div style={{ width: "95%", margin: "0 auto" }}>
+      <h1>Featured Projects</h1>
       <Slider {...sliderSettings}>
         {pastProjectsData.map((project) => (
           <ProjectCard

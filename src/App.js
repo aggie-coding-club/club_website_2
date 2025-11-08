@@ -1,16 +1,16 @@
 import "./App.css";
 import Header from "./components/sections/Header/Header";
-import Welcome from "./components/sections/Welcome/Welcome";
-import WhatWeDo from "./components/sections/WhatWeDo/WhatWeDo";
-import HowToJoin from "./components/sections/HowToJoin/HowToJoin";
-import Schedule from "./components/sections/Schedule/Schedule";
-import Projects from "./components/sections/Projects/Projects";
-import OfficerTeam from "./components/sections/OfficerTeam/OfficerTeam";
 import Footer from "./components/sections/Footer/Footer";
+import Home from "./pages/Home";
+import ProjectsPage from "./pages/ProjectsPage";
+import OfficersPage from "./pages/OfficersPage";
+import SponsorsPage from "./pages/SponsorsPage";
+import JoinPage from "./pages/JoinPage";
+import EventsPage from "./pages/EventsPage";
 
 import { ThemeProvider } from "@emotion/react";
 import { createTheme } from "@mui/material";
-import Sponsors from "./components/sections/Sponsors/Sponsors";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export const theme = createTheme({
   palette: {
@@ -43,17 +43,20 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <main className="sm:w-[75%] w-[95%] mx-auto">
+        <Router>
           <Header />
-          <Welcome />
-          <WhatWeDo />
-          <HowToJoin />
-          <Schedule />
-          <Projects />
-          <OfficerTeam />
-          <Sponsors />
-          <Footer />
-        </main>
+          <main className="sm:w-[75%] w-[95%] mx-auto">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/projects" element={<ProjectsPage />} />
+              <Route path="/officers" element={<OfficersPage />} />
+              <Route path="/sponsors" element={<SponsorsPage />} />
+              <Route path="/join" element={<JoinPage />} />
+              <Route path="/events" element={<EventsPage />} />
+            </Routes>
+            <Footer />
+          </main>
+        </Router>
       </ThemeProvider>
     </div>
   );

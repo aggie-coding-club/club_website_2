@@ -57,7 +57,6 @@ export default function Projects() {
 
   return (
     <div id="projects">
-      <h1>Projects</h1>
       <Container maxWidth="md">
         <div style={containerStyle}>
           <Box sx={descriptionContainerStyle1}>
@@ -98,9 +97,9 @@ export default function Projects() {
             <div>
               <h3>Or start something awesome</h3>
               <p>
-                Do you have a great project idea? Are you interested in
-                learning more about project management? You might want to
-                consider becoming an ACC project manager.
+                Do you have a great project idea? Are you interested in learning
+                more about project management? You might want to consider
+                becoming an ACC project manager.
               </p>
               <p>
                 Project manager applications open at the start of each semester.

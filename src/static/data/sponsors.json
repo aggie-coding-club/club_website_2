@@ -15,33 +15,30 @@
       },
       {
         "key": 12,
-        "name": "Futo"
+        "name": "FUTO"
       },
       {
-        "key": 13,
-        "name": "Meta"
+        "key": 3,
+        "name": "Frogslayer"
       },
       {
-        "key": 14,
-        "name": "Chevron"
-      }
-
-    ],
-    "silver": [
-      
-      {
-        "key": 15,
-        "name": "Capital One"
+        "key": 19,
+        "name": "Arm"
       },
       {
-        "key": 16,
-        "name": "Reynolds and Reynolds"
+        "key": 20,
+        "name": "Northmark Strategies"
       },
       {
-        "key": 17,
-        "name": "PCS Software"
+        "key": 21,
+        "name": "LPL Financial"
+      },
+      {
+        "key": 22,
+        "name": "IPT Global"
       }
     ],
+    "silver": [],
     "bronze": [
       {
         "key": 18,
@@ -51,10 +48,6 @@
   },
   "former_sponsors": {
     "all": [
-      {
-        "key": 3,
-        "name": "Frogslayer"
-      },
       {
         "key": 4,
         "name": "PwC"
@@ -82,6 +75,26 @@
       {
         "key": 11,
         "name": "HCSS"
+      },
+      {
+        "key": 13,
+        "name": "Meta"
+      },
+      {
+        "key": 14,
+        "name": "Chevron"
+      },
+      {
+        "key": 15,
+        "name": "Capital One"
+      },
+      {
+        "key": 16,
+        "name": "Reynolds and Reynolds"
+      },
+      {
+        "key": 17,
+        "name": "PCS Software"
       }
     ]
   }

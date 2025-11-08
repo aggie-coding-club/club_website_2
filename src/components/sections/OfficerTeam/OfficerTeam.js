@@ -23,18 +23,17 @@ export default function OfficerTeam() {
   return (
     <div id="officer-team">
       <div>
-        <h1>Officer Team</h1>
         <OfficerCards officers={officers} />
       </div>
       <div style={squareButtonStyle}>
         <SquareButton variant="contained" onClick={handleClick}>
-          Former Officers
+          Former Team Members
         </SquareButton>
       </div>
 
       {displayFormerOfficers && (
         <div>
-          <h1>Former Officers</h1>
+          <h1>Former Team Members</h1>
           <OfficerCards officers={formerOfficers} />
         </div>
       )}
