@@ -183,8 +183,8 @@ export default function OfficersPage() {
               <p style={statLabelStyle}>Discord Members</p>
             </Box>
             <Box sx={statCardStyle}>
-              <h2 style={statNumberStyle}>10+</h2>
-              <p style={statLabelStyle}>Company Partners</p>
+              <h2 style={statNumberStyle}>40+</h2>
+              <p style={statLabelStyle}>Projects Yearly</p>
             </Box>
             <Box sx={statCardStyle}>
               <h2 style={statNumberStyle}>30+</h2>
