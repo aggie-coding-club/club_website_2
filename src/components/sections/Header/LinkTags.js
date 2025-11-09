@@ -15,13 +15,19 @@ export default function LinkTags({ linkData }) {
     display: "flex",
     flexDirection: "row",
     margin: "20px 0",
+    flexWrap: "nowrap",
+    overflow: "visible",
+    maxWidth: "100%",
+    gap: "15px",
   };
 
   // App.css has more styling for link tag <a></a>
   const linkStyle = {
     color: theme.palette.text.primary,
-    margin: "0 15px",
+    margin: "0",
     textDecoration: "none",
+    whiteSpace: "nowrap",
+    flexShrink: 0,
   };
 
   return (
