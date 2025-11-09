@@ -29,6 +29,26 @@
       "linkedin": "https://www.linkedin.com/in/obinwa05/"
     },
     {
+      "name": "Sophia Phu",
+      "major": "Computer Engineering '26",
+      "position": "Projects Chair",
+      "description": "Sophia enjoys programming, project management, and ACC. Out of ACC she is also president of the ENGR TAO organization, a TA for CSCE 120, and a violinist in the TAMU Chamber Orchestra.",
+      "linkedin": "https://www.linkedin.com/in/sophiaphu/"
+    },
+    {
+      "name": "Caiti McInerny",
+      "major": "General Engineering '27",
+      "position": "Events Chair",
+      "description": "Caiti is an events officer from Chicago and has two dogs.",
+      "linkedin": "https://www.linkedin.com/in/cai-mci/"
+    },
+    {
+      "name": "Adam Mackintosh",
+      "major": "Electrical Engineering '27",
+      "position": "Marketing Chair",
+      "description": "Adam is one of our Marketing Officers and a Meme master. He enjoys all things music. When he's not coding or making memes he's out adventuring or playing video games."
+    },
+    {
       "name": "Aniket Shirodkar",
       "major": "Computer Science '27",
       "position": "Workshops Officer",
@@ -50,13 +70,6 @@
       "linkedin": "https://www.linkedin.com/in/adamryu/"
     },
     {
-      "name": "Sophia Phu",
-      "major": "Computer Engineering '27",
-      "position": "Projects Chair",
-      "description": "Sophia enjoys programming, project management, and ACC. Out of ACC she is also president of the ENGR TAO organization, a TA for CSCE 120, and a violinist in the TAMU Chamber Orchestra.",
-      "linkedin": "https://www.linkedin.com/in/sophiaphu/"
-    },
-    {
       "name": "Lance Kakkassery",
       "major": "Computer Science '28",
       "position": "Projects Officer",
@@ -72,23 +85,10 @@
     },
     {
       "name": "Thomas Ducote",
-      "major": "Computer Science '27",
+      "major": "Computer Science '26",
       "position": "Projects Officer",
       "description": "Thomas assists in managing and organizing our club's project portfolio.",
       "linkedin": "https://www.linkedin.com/in/thomas-ducote-b2247026a/"
-    },
-    {
-      "name": "Caiti McInerny",
-      "major": "General Engineering '27",
-      "position": "Events Chair",
-      "description": "Caiti is an events officer from Chicago and has two dogs.",
-      "linkedin": "https://www.linkedin.com/in/cai-mci/"
-    },
-    {
-      "name": "Adam Mackintosh",
-      "major": "Electrical Engineering '27",
-      "position": "Marketing Chair",
-      "description": "Adam is one of our Marketing Officers and a Meme master. He enjoys all things music. When he's not coding or making memes he's out adventuring or playing video games."
     },
     {
       "name": "Ryan Rosario",
