@@ -363,6 +363,13 @@
       "position": "President",
       "term": "2016 - 2018",
       "description": "Rohit is the former president of Aggie Coding Club! He is now a Software Developer at General Motors!"
+    },
+    {
+      "name": "Michael McKenna",
+      "major": "Computer Science '18",
+      "position": "Co-Founder / President",
+      "term": "2015 - 2016",
+      "description": "Michael co-founded ACC in 2015! He graduated working at Capital One and is now at Meta."
     }
   ]
 }
