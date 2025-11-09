@@ -35,11 +35,28 @@ export default function Welcome() {
   const headingStyle = {
     textAlign: isLg ? "left" : "center",
     margin: 0,
+    fontSize: {
+      xs: "42px",
+      sm: "48px",
+      md: "52px",
+      lg: "55px",
+    },
+    lineHeight: {
+      xs: "1.2",
+      sm: "1.2",
+      md: "1.2",
+      lg: "1.2",
+    },
   };
 
   const headingEmphasisStyle = {
     color: theme.palette.text.secondary,
-    marginTop: "-1rem",
+    marginTop: {
+      xs: "-0.5rem",
+      sm: "-0.75rem",
+      md: "-0.875rem",
+      lg: "-1rem",
+    },
     ...headingStyle,
   };
 
@@ -63,8 +80,12 @@ export default function Welcome() {
         >
           <div className="flex flex-col gap-6">
             <div>
-              <h1 style={headingStyle}>Welcome to </h1>
-              <h1 style={headingEmphasisStyle}>Aggie Coding Club!</h1>
+              <Box component="h1" sx={headingStyle}>
+                Welcome to{" "}
+              </Box>
+              <Box component="h1" sx={headingEmphasisStyle}>
+                Aggie Coding Club!
+              </Box>
             </div>
 
             <p className="flex">
