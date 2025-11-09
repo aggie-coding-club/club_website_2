@@ -28,8 +28,26 @@ const headerLinks = [
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [headerHeight, setHeaderHeight] = useState(80);
+  const headerRef = React.useRef(null);
   const theme = useTheme();
-  const isMd = useMediaQuery(theme.breakpoints.up("md"));
+  // Use a higher breakpoint to ensure tabs only show on larger screens
+  const isMd = useMediaQuery("(min-width: 900px)");
+
+  React.useEffect(() => {
+    const updateHeaderHeight = () => {
+      if (headerRef.current) {
+        setHeaderHeight(headerRef.current.offsetHeight);
+      }
+    };
+
+    updateHeaderHeight();
+    window.addEventListener("resize", updateHeaderHeight);
+
+    return () => {
+      window.removeEventListener("resize", updateHeaderHeight);
+    };
+  }, []);
 
   const headerContainerStyle = {
     width: "100vw",
@@ -50,21 +68,29 @@ export default function Header() {
     width: "95%",
     maxWidth: "75%",
     margin: "0 auto",
+    overflow: "hidden",
     "@media (min-width: 640px)": {
       width: "75%",
     },
   };
 
-  const mobileMenuStyle = {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    position: "absolute",
-    top: "60px",
-    width: "100%",
-    backgroundColor: "white",
-    zIndex: 1001,
-  };
+  const mobileMenuStyle = React.useMemo(
+    () => ({
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      position: "fixed",
+      top: `${headerHeight}px`,
+      left: 0,
+      right: 0,
+      width: "100vw",
+      backgroundColor: "white",
+      zIndex: 1001,
+      padding: "20px 0",
+      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+    }),
+    [headerHeight]
+  );
 
   const mobileMenuItemStyle = {
     color: theme.palette.text.primary,
@@ -83,6 +109,7 @@ export default function Header() {
     display: "inline-block",
     marginLeft: "20px",
     whiteSpace: "nowrap",
+    flexShrink: 0,
   };
 
   const toggleMobileMenu = () => {
@@ -90,7 +117,7 @@ export default function Header() {
   };
 
   return (
-    <Box sx={headerContainerStyle}>
+    <Box sx={headerContainerStyle} ref={headerRef}>
       <Box
         sx={{
           ...flexRow,
@@ -102,7 +129,7 @@ export default function Header() {
           },
         }}
       >
-        <div className="py-3">
+        <div className="py-3" style={{ flexShrink: 0 }}>
           <Link to="/" style={{ display: "inline-block" }}>
             <img
               src={accIcon}
@@ -123,10 +150,30 @@ export default function Header() {
             />
           </Link>
         </div>
-        <div style={{ display: "flex", alignItems: "center" }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            flexShrink: 1,
+            minWidth: 0,
+            maxWidth: "100%",
+            overflow: "hidden",
+          }}
+        >
           {isMd ? (
             <>
-              <LinkTags linkData={headerLinks} />
+              <Box
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  minWidth: 0,
+                  maxWidth: "100%",
+                  overflow: "hidden",
+                  marginRight: "20px",
+                }}
+              >
+                <LinkTags linkData={headerLinks} />
+              </Box>
               <Link
                 to="/join"
                 style={joinButtonStyle}
@@ -166,25 +213,25 @@ export default function Header() {
               >
                 {isMobileMenuOpen ? <CloseIcon /> : <MenuIcon />}
               </IconButton>
-              {isMobileMenuOpen && (
-                <Box sx={mobileMenuStyle}>
-                  {headerLinks.map((link) => (
-                    <Link
-                      key={link.name}
-                      to={link.link}
-                      className="header-link"
-                      style={mobileMenuItemStyle}
-                      onClick={toggleMobileMenu}
-                    >
-                      {link.name}
-                    </Link>
-                  ))}
-                </Box>
-              )}
             </>
           )}
         </div>
       </Box>
+      {!isMd && isMobileMenuOpen && (
+        <Box sx={mobileMenuStyle}>
+          {headerLinks.map((link) => (
+            <Link
+              key={link.name}
+              to={link.link}
+              className="header-link"
+              style={mobileMenuItemStyle}
+              onClick={toggleMobileMenu}
+            >
+              {link.name}
+            </Link>
+          ))}
+        </Box>
+      )}
     </Box>
   );
 }
