@@ -8,27 +8,6 @@ export default function InstagramGallery() {
     margin: "70px 0",
   };
 
-  const titleStyle = {
-    color: theme.palette.text.primary,
-    fontSize: "30px",
-    fontWeight: 600,
-    textAlign: "center",
-    marginBottom: "40px",
-  };
-
-  const widgetContainerStyle = {
-    width: "100%",
-    maxWidth: "935px",
-    margin: "0 auto",
-    minHeight: "600px",
-  };
-
-  const profileLinkStyle = {
-    display: "flex",
-    justifyContent: "center",
-    marginTop: "40px",
-  };
-
   const linkButtonStyle = {
     backgroundColor: theme.palette.primary.main,
     color: "white",
@@ -42,16 +21,50 @@ export default function InstagramGallery() {
 
   return (
     <div style={containerStyle}>
-      <h2 style={titleStyle}>Follow Us on Instagram</h2>
-      <Container maxWidth="lg">
+      <Box
+        component="h2"
+        sx={{
+          color: theme.palette.text.primary,
+          fontSize: "30px",
+          fontWeight: 600,
+          textAlign: "center",
+          marginBottom: {
+            xs: "20px",
+            sm: "30px",
+            md: "40px",
+          },
+        }}
+      >
+        Follow Us on Instagram
+      </Box>
+      <Container
+        maxWidth="lg"
+        sx={{
+          paddingLeft: { xs: "10px", sm: "16px", md: "24px" },
+          paddingRight: { xs: "10px", sm: "16px", md: "24px" },
+        }}
+      >
         <Box
           sx={{
             display: "flex",
             justifyContent: "center",
-            marginBottom: "30px",
+            marginBottom: {
+              xs: "0px",
+              sm: "10px",
+              md: "15px",
+            },
           }}
         >
-          <div style={widgetContainerStyle}>
+          <Box
+            sx={{
+              width: "100%",
+              maxWidth: "935px",
+              margin: "0 auto",
+              minHeight: { xs: "400px", sm: "500px", md: "600px" },
+              marginBottom: 0,
+              paddingBottom: 0,
+            }}
+          >
             {/* Instagram Feed Widget - automatically pulls latest posts from @aggiecodingclub */}
             <iframe
               src="https://www.instagram.com/aggiecodingclub/embed"
@@ -63,14 +76,33 @@ export default function InstagramGallery() {
                 border: "none",
                 borderRadius: "12px",
                 overflow: "hidden",
+                display: "block",
+                margin: 0,
+                padding: 0,
+                verticalAlign: "bottom",
               }}
               scrolling="no"
               allowTransparency="true"
               allow="encrypted-media"
             />
-          </div>
+          </Box>
         </Box>
-        <div style={profileLinkStyle}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            marginTop: {
+              xs: "-180px",
+              sm: "-100px",
+              md: "20px",
+            },
+            paddingTop: {
+              xs: "0px",
+              sm: "0px",
+              md: "0px",
+            },
+          }}
+        >
           <a
             href="https://www.instagram.com/aggiecodingclub/"
             target="_blank"
@@ -92,7 +124,7 @@ export default function InstagramGallery() {
           >
             Follow Us on Instagram
           </a>
-        </div>
+        </Box>
       </Container>
     </div>
   );
