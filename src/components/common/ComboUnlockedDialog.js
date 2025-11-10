@@ -97,6 +97,7 @@ export default function ComboUnlockedDialog({ open, onClose }) {
               marginBottom: "20px",
               fontSize: "24px",
               fontWeight: 600,
+              color: "white",
             }}
           >
             You found the secret! 💕
