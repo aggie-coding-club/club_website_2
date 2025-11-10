@@ -11,6 +11,7 @@ import { AiFillLinkedin } from "react-icons/ai";
  * @param {string} term - The years the officer was in office (eg) 2018 - 2020
  * @param {string} description - A short description of an officer
  * @param {string} linkedin - LinkedIn profile URL (optional)
+ * @param {function} onHover - Callback when officer is hovered
  * @returns {ReactComponentElement[]} renders a singular card with the officer info
  */
 export default function OfficerCard({
@@ -20,6 +21,7 @@ export default function OfficerCard({
   term,
   description,
   linkedin,
+  onHover,
 }) {
   const [hover, setHover] = useState(false);
 
@@ -31,10 +33,23 @@ export default function OfficerCard({
 
   function handleMouseEnter() {
     setHover(true);
+    if (onHover) {
+      onHover(name);
+    }
   }
 
   function handleMouseExit() {
     setHover(false);
+  }
+
+  function handleClick(e) {
+    // Don't trigger if clicking on the LinkedIn link
+    if (e.target.closest('a[href*="linkedin"]')) {
+      return;
+    }
+    if (onHover) {
+      onHover(name);
+    }
   }
 
   return (
@@ -56,6 +71,7 @@ export default function OfficerCard({
       }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseExit}
+      onClick={handleClick}
     >
       <Box
         sx={{
