@@ -21,7 +21,7 @@ import OfficerCard from "./OfficerCard";
  * @param {string} officer[].description - A short description of an officer
  * @returns {ReactComponentElement[]} renders the array of officers into cards
  */
-export default function OfficerCards({ officers }) {
+export default function OfficerCards({ officers, onOfficerHover }) {
   return (
     <Box
       sx={{
@@ -47,6 +47,7 @@ export default function OfficerCards({ officers }) {
           description={officer.description}
           linkedin={officer.linkedin}
           key={officer.name}
+          onHover={onOfficerHover}
         />
       ))}
     </Box>
