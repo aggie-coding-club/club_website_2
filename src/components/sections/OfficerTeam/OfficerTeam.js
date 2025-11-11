@@ -12,7 +12,7 @@ const formerOfficers = allOfficers.former;
 export default function OfficerTeam() {
   // keeps track of button state to know whether to display officers or not
   const [displayFormerOfficers, setDisplayFormerOfficers] = useState(false);
-  const [hoveredOfficers, setHoveredOfficers] = useState(new Set());
+  const hoveredOfficersRef = useRef(new Set());
   const [comboUnlocked, setComboUnlocked] = useState(false);
   const [showDialog, setShowDialog] = useState(false);
   const dialogShownRef = useRef(false);
@@ -24,24 +24,21 @@ export default function OfficerTeam() {
   function handleOfficerHover(name) {
     const nameLower = name.toLowerCase();
     if (nameLower.includes("andrew") || nameLower.includes("christion")) {
-      setHoveredOfficers((prev) => {
-        const newSet = new Set(prev);
-        newSet.add(nameLower.includes("andrew") ? "andrew" : "christion");
+      const newSet = new Set(hoveredOfficersRef.current);
+      newSet.add(nameLower.includes("andrew") ? "andrew" : "christion");
+      hoveredOfficersRef.current = newSet;
 
-        // Check if both are hovered and dialog hasn't been shown yet
-        if (
-          newSet.has("andrew") &&
-          newSet.has("christion") &&
-          !comboUnlocked &&
-          !dialogShownRef.current
-        ) {
-          setComboUnlocked(true);
-          setShowDialog(true);
-          dialogShownRef.current = true;
-        }
-
-        return newSet;
-      });
+      // Check if both are hovered and dialog hasn't been shown yet
+      if (
+        newSet.has("andrew") &&
+        newSet.has("christion") &&
+        !comboUnlocked &&
+        !dialogShownRef.current
+      ) {
+        setComboUnlocked(true);
+        setShowDialog(true);
+        dialogShownRef.current = true;
+      }
     }
   }
 
