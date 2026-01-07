@@ -12,7 +12,7 @@ export default function SponsorCard({ name }) {
       "LPL Financial": "lplfinancial.png",
       "IPT Global": "ipt.png",
       "Northmark Strategies": "northmark.jpeg",
-      Arm: "arm.png",
+      HRT: "hrt.png",
     };
 
     if (specialCases[name]) {

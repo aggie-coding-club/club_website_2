@@ -6,6 +6,10 @@
         "name": "General Motors"
       },
       {
+        "key": 19,
+        "name": "HRT"
+      },
+      {
         "key": 2,
         "name": "Google"
       },
@@ -20,10 +24,6 @@
       {
         "key": 3,
         "name": "Frogslayer"
-      },
-      {
-        "key": 19,
-        "name": "Arm"
       },
       {
         "key": 20,
