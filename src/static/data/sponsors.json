@@ -2,10 +2,6 @@
   "sponsors": {
     "gold": [
       {
-        "key": 1,
-        "name": "General Motors"
-      },
-      {
         "key": 19,
         "name": "HRT"
       },
@@ -14,28 +10,32 @@
         "name": "Google"
       },
       {
-        "key": 7,
-        "name": "Capsher"
+        "key": 1,
+        "name": "General Motors"
       },
       {
-        "key": 12,
-        "name": "FUTO"
+        "key": 23,
+        "name": "Lockheed Martin"
+      },
+      {
+        "key": 24,
+        "name": "American Airlines"
+      },
+      {
+        "key": 25,
+        "name": "Avanade"
+      },
+      {
+        "key": 7,
+        "name": "Capsher"
       },
       {
         "key": 3,
         "name": "Frogslayer"
       },
       {
-        "key": 20,
-        "name": "Northmark Strategies"
-      },
-      {
-        "key": 21,
-        "name": "LPL Financial"
-      },
-      {
-        "key": 22,
-        "name": "IPT Global"
+        "key": 26,
+        "name": "RTX"
       }
     ],
     "silver": [],
@@ -95,6 +95,22 @@
       {
         "key": 17,
         "name": "PCS Software"
+      },
+      {
+        "key": 12,
+        "name": "FUTO"
+      },
+      {
+        "key": 20,
+        "name": "Northmark Strategies"
+      },
+      {
+        "key": 21,
+        "name": "LPL Financial"
+      },
+      {
+        "key": 22,
+        "name": "IPT Global"
       }
     ]
   }

@@ -13,6 +13,10 @@ export default function SponsorCard({ name }) {
       "IPT Global": "ipt.png",
       "Northmark Strategies": "northmark.jpeg",
       HRT: "hrt.png",
+      "Lockheed Martin": "lockheed_martin.png",
+      "American Airlines": "american_airlines.png",
+      Avanade: "avanade.png",
+      RTX: "rtx.png",
     };
 
     if (specialCases[name]) {
