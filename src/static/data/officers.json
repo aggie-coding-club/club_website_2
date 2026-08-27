@@ -1,24 +1,17 @@
 {
   "officers": [
     {
-      "name": "AJ Bamgbelu",
-      "major": "Computer Science '26",
-      "position": "President",
-      "description": "A.J. serves as our dedicated president, leading the organization with passion and vision. He brings valuable industry experience as a 2x intern at Meta.",
-      "linkedin": "https://www.linkedin.com/in/ajbamgbelu/"
-    },
-    {
       "name": "Tejas Kalpathi",
       "major": "Computer Science '27",
-      "position": "External Vice President",
+      "position": "Co-President",
       "description": "Hi guys my name is Tejas and I'm from Sugar Land, Texas. In my free time I enjoy playing tennis, pickleball, and watching football.",
       "linkedin": "https://www.linkedin.com/in/tejaskalpathi/"
     },
     {
       "name": "Aarya Patel",
       "major": "Computer Engineering '27",
-      "position": "Internal Vice President",
-      "description": "I'm the internal vice president and summer intern at HEB. I play cello, roblox, and sudoku.",
+      "position": "Co-President",
+      "description": "I'm one of the co-presidents and a summer intern at HEB. I play cello, roblox, and sudoku.",
       "linkedin": "https://www.linkedin.com/in/aaryaapatel/"
     },
     {
@@ -27,13 +20,6 @@
       "position": "Workshops Chair",
       "description": "Obinna leads our Workshops team and helps organize educational sessions for the club.",
       "linkedin": "https://www.linkedin.com/in/obinwa05/"
-    },
-    {
-      "name": "Sophia Phu",
-      "major": "Computer Engineering '26",
-      "position": "Projects Chair",
-      "description": "Sophia enjoys programming, project management, and ACC. Out of ACC she is also president of the ENGR TAO organization, a TA for CSCE 120, and a violinist in the TAMU Chamber Orchestra.",
-      "linkedin": "https://www.linkedin.com/in/sophiaphu/"
     },
     {
       "name": "Caiti McInerny",
@@ -70,6 +56,13 @@
       "linkedin": "https://www.linkedin.com/in/adamryu/"
     },
     {
+      "name": "Kaushik Nagarajan",
+      "major": "Computer Science '28",
+      "position": "Workshops Officer",
+      "description": "Kaushik is a Computer Science Honors student with a Statistics minor and a research assistant at the TAMU NLP Lab.",
+      "linkedin": "https://www.linkedin.com/in/nagarajan-kaushik/"
+    },
+    {
       "name": "Lance Kakkassery",
       "major": "Computer Science '28",
       "position": "Projects Officer",
@@ -82,6 +75,57 @@
       "position": "Projects Officer",
       "description": "Brandon supports our project initiatives and helps coordinate development efforts.",
       "linkedin": "https://www.linkedin.com/in/brandonyuann/"
+    },
+    {
+      "name": "Colin Weis",
+      "major": "Computer Science '29",
+      "position": "Projects Officer",
+      "description": "Colin is one of our Projects Officers and a researcher in the AGGIES Lab. As a freshman he earned 2nd place at Texas A&M's Student Research Week for a framework that helps K-2 kids learn to build apps with AI, and he teaches STEM over school breaks.",
+      "linkedin": "https://www.linkedin.com/in/colinweis/"
+    },
+    {
+      "name": "Sanjana Ram",
+      "major": "Computer Science '28",
+      "position": "Events and Marketing Officer",
+      "description": "I'm one of the events officers, I'm from Austin, and while I'm not coding I love painting and playing table top games with friends",
+      "linkedin": "https://www.linkedin.com/in/sanjana-ram-254922314/"
+    },
+    {
+      "name": "Lanxi Xu",
+      "major": "Computer Science '28",
+      "position": "Events and Marketing Officer",
+      "description": "Lanxi focuses on Art and Graphics for our Events and Marketing team, creating visual content for the club.",
+      "linkedin": "https://www.linkedin.com/in/lanxi-xu-106091229/"
+    },
+    {
+      "name": "Cara Lin",
+      "position": "Events and Marketing Officer",
+      "description": "Hey, I'm Cara, an events and marketing officer! I help create visual content for the club and organize events.",
+      "linkedin": "https://www.linkedin.com/in/carablin/",
+      "major": "Computer Science '29"
+    },
+    {
+      "name": "Yashvi Mehta",
+      "position": "Events and Marketing Officer",
+      "description": "Hi! I'm Yashvi, I am one of our events and marketing officers. I love building full-stack applications and diving into robotics projects.",
+      "linkedin": "https://www.linkedin.com/in/yashvimehtaa/",
+      "major": "Computer Engineering '29"
+    }
+  ],
+  "former": [
+    {
+      "name": "AJ Bamgbelu",
+      "major": "Computer Science '26",
+      "position": "President",
+      "description": "A.J. serves as our dedicated president, leading the organization with passion and vision. He brings valuable industry experience as a 2x intern at Meta.",
+      "linkedin": "https://www.linkedin.com/in/ajbamgbelu/"
+    },
+    {
+      "name": "Sophia Phu",
+      "major": "Computer Engineering '26",
+      "position": "Projects Chair",
+      "description": "Sophia enjoys programming, project management, and ACC. Out of ACC she is also president of the ENGR TAO organization, a TA for CSCE 120, and a violinist in the TAMU Chamber Orchestra.",
+      "linkedin": "https://www.linkedin.com/in/sophiaphu/"
     },
     {
       "name": "Thomas Ducote",
@@ -98,28 +142,12 @@
       "linkedin": "https://www.linkedin.com/in/ryanrosario1/"
     },
     {
-      "name": "Sanjana Ram",
-      "major": "Computer Science '28",
-      "position": "Events and Marketing Officer",
-      "description": "I'm one of the events officers, I'm from Austin, and while I'm not coding I love painting and playing table top games with friends",
-      "linkedin": "https://www.linkedin.com/in/sanjana-ram-254922314/"
-    },
-    {
       "name": "Ray You",
       "major": "Mechanical Engineering '28",
       "position": "Events and Marketing Officer",
       "description": "Ray is a marketing officer who loves tennis and art.",
       "linkedin": "https://www.linkedin.com/in/ray-you/"
     },
-    {
-      "name": "Lanxi Xu",
-      "major": "Computer Science '28",
-      "position": "Events and Marketing Officer",
-      "description": "Lanxi focuses on Art and Graphics for our Events and Marketing team, creating visual content for the club.",
-      "linkedin": "https://www.linkedin.com/in/lanxi-xu-106091229/"
-    }
-  ],
-  "former": [
     {
       "name": "Jad Khalili",
       "major": "Computer Science '25",
