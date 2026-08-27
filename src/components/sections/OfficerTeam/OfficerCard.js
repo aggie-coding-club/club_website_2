@@ -31,6 +31,19 @@ export default function OfficerCard({
     return name.toLowerCase().replaceAll(" ", "_") + ".jpg";
   }
 
+  // Resolve the headshot at render time; fall back to initials if the file is missing
+  let headshot = null;
+  try {
+    headshot = require(`../../../static/images/officers/${formatName()}`);
+  } catch (e) {
+    headshot = null;
+  }
+  const initials = name
+    .split(" ")
+    .map((part) => part[0])
+    .join("")
+    .toUpperCase();
+
   function handleMouseEnter() {
     setHover(true);
     if (onHover) {
@@ -81,19 +94,41 @@ export default function OfficerCard({
           overflow: "hidden",
         }}
       >
-        <img
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            objectPosition: "center",
-            willChange: "transform",
-            transform: hover ? "scale3d(1.05, 1.05, 1)" : "scale3d(1, 1, 1)",
-            transition: "transform 0.25s cubic-bezier(0.4, 0, 0.2, 1)",
-          }}
-          src={require(`../../../static/images/officers/${formatName()}`)}
-          alt={`${name} headshot`}
-        />
+        {headshot ? (
+          <img
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              objectPosition: "center",
+              willChange: "transform",
+              transform: hover ? "scale3d(1.05, 1.05, 1)" : "scale3d(1, 1, 1)",
+              transition: "transform 0.25s cubic-bezier(0.4, 0, 0.2, 1)",
+            }}
+            src={headshot}
+            alt={`${name} headshot`}
+          />
+        ) : (
+          <Box
+            role="img"
+            aria-label={`${name} headshot placeholder`}
+            sx={{
+              width: "100%",
+              height: "100%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              backgroundColor: "#e8eef7",
+              color: theme.palette.primary.main,
+              fontSize: "72px",
+              fontWeight: 600,
+              letterSpacing: "2px",
+              userSelect: "none",
+            }}
+          >
+            {initials}
+          </Box>
+        )}
         <Box
           sx={{
             position: "absolute",
